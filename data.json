@@ -1,0 +1,53 @@
+{
+  "200BC": [
+    {
+      "region": "Italian Peninsula",
+      "language": "Latin",
+      "notes": "Latin is the primary language of the Roman Republic."
+    },
+    {
+      "region": "Iberian Peninsula",
+      "language": "Iberian, Celtic, Greek",
+      "notes": "Iberian languages dominate, with some influence from Celtic and Greek colonies."
+    },
+    {
+      "region": "Gaul",
+      "language": "Celtic",
+      "notes": "Celtic languages are widely spoken across Gaul (modern France)."
+    }
+  ],
+  "1AD": [
+    {
+      "region": "Western Europe",
+      "language": "Latin",
+      "notes": "Latin has spread to much of Western Europe as the Roman Empire reaches its peak."
+    },
+    {
+      "region": "Germania",
+      "language": "Germanic",
+      "notes": "Germanic tribes dominate the areas beyond the Roman borders."
+    },
+    {
+      "region": "Britain",
+      "language": "Celtic",
+      "notes": "Celtic languages remain dominant in Britain, with limited Roman influence in the south."
+    }
+  ],
+  "500AD": [
+    {
+      "region": "Western Europe",
+      "language": "Latin, Germanic",
+      "notes": "Latin is still spoken, but Germanic languages have become dominant due to migrations and the fall of Rome."
+    },
+    {
+      "region": "Britain",
+      "language": "Old English, Celtic",
+      "notes": "Anglo-Saxon invasions introduce Old English alongside Celtic languages."
+    },
+    {
+      "region": "Italian Peninsula",
+      "language": "Latin",
+      "notes": "Latin remains the main language but is evolving into early forms of Italian."
+    }
+  ]
+}
