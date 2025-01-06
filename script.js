@@ -2,7 +2,9 @@
 const yearMap = {
   1: "200BC",
   2: "1AD",
-  3: "500AD",
+  3: "100AD",
+  4: "200AD",
+  5: "500AD",
 };
 
 // Initialize the map
@@ -37,6 +39,13 @@ const markersData = {
       region: "Iberian Peninsula",
       notes: "Iberian and Celtic languages.",
     },
+    {
+      lat: 53.1,
+      lon: 10.2,
+      language: "Germanic",
+      region: "Germania Scandenavia",
+      notes: "Germanic languages start to spread.",
+    },
   ],
   "1AD": [
     {
@@ -54,6 +63,81 @@ const markersData = {
       notes: "Germanic tribes expanding.",
     },
   ],
+  "100AD": [
+    {
+      lat: 43.65107,
+      lon: 6.0131,
+      language: "Latin",
+      region: "Western Europe (Roman Empire)",
+      notes: "Latin is the dominant language.",
+    },
+    {
+      lat: 51.1657,
+      lon: 10.4515,
+      language: "Germanic",
+      region: "Germania",
+      notes: "Germanic tribes expanding.",
+    },
+    {
+      lat: 59.17,
+      lon: 11.43,
+      language: "Germanic",
+      region: "Scandenavia",
+      notes: "North Germanic languages remain in Scandenavia.",
+    },
+    {
+      lat: 51.09,
+      lon: 16.0,
+      language: "Germanic",
+      region: "Scandenavia",
+      notes: "East Germanic languages begin to spread eastward.",
+    },
+  ],
+  "200AD": [
+    {
+      lat: 43.65107,
+      lon: 6.0131,
+      language: "Latin",
+      region: "Western Europe (Roman Empire)",
+      notes: "Latin is the dominant language.",
+    },
+    {
+      lat: 51.1657,
+      lon: 10.4515,
+      language: "Germanic",
+      region: "Germania",
+      notes: "Elbe Germanic tribes dominate central Europe.",
+    },
+    {
+      lat: 51.44,
+      lon: 4.5,
+      language: "Germanic",
+      region: "Germania",
+      notes: "Weser-Rhine Germanic dominate the lowlands.",
+    },
+    {
+      lat: 59.17,
+      lon: 11.43,
+      language: "Germanic",
+      region: "Scandenavia",
+      notes: "North Germanic languages remain in Scandenavia.",
+    },
+    {
+      lat: 51.09,
+      lon: 16.0,
+      language: "Germanic",
+      region: "Scandenavia",
+      notes: "East Germanic languages begin to spread eastward.",
+    },
+    {
+      lat: 53.56,
+      lon: 9.18,
+      language: "Germanic",
+      region: "Scandenavia",
+      notes:
+        "North Sea Germanic dominates northern Germania, and spreads to Britannia.",
+    },
+  ],
   "500AD": [
     {
       lat: 48.8566,
@@ -67,7 +151,43 @@ const markersData = {
       lon: 10.4515,
       language: "Germanic",
       region: "Germania",
-      notes: "Germanic tribes dominate.",
+      notes: "Elbe Germanic tribes dominate central Europe.",
+    },
+    {
+      lat: 51.44,
+      lon: 4.5,
+      language: "Germanic",
+      region: "Germania",
+      notes: "Weser-Rhine Germanic dominate the lowlands.",
+    },
+    {
+      lat: 53.56,
+      lon: 9.18,
+      language: "Germanic",
+      region: "Scandenavia",
+      notes:
+        "North Sea Germanic dominates northern Germania, and spreads to Britannia.",
+    },
+    {
+      lat: 46.04,
+      lon: 18.43,
+      language: "Germanic",
+      region: "Europe",
+      notes: "East Germanic continues to spread.",
+    },
+    {
+      lat: 40.02,
+      lon: -2.11,
+      language: "Germanic",
+      region: "Europe",
+      notes: "East Germanic continues to spread.",
+    },
+    {
+      lat: 59.17,
+      lon: 11.43,
+      language: "Germanic",
+      region: "Scandenavia",
+      notes: "Old Norse remain in Scandenavia.",
     },
   ],
 };
@@ -117,6 +237,9 @@ function loadLanguageData(year) {
 // Get slider and year label elements
 const slider = document.getElementById("timeSlider");
 const yearLabel = document.getElementById("yearLabel");
+
+// Set the slider's max value to 5 to match the years in yearMap
+slider.max = 5;
 
 // Event listener for the slider input
 slider.addEventListener("input", (event) => {
