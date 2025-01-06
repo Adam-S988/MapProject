@@ -1,10 +1,11 @@
 // Map slider values to years
 const yearMap = {
-  1: "200BC",
-  2: "1AD",
-  3: "100AD",
-  4: "200AD",
-  5: "500AD",
+  1: "1500BC",
+  2: "200BC",
+  3: "1AD",
+  4: "100AD",
+  5: "200AD",
+  6: "500AD",
 };
 
 // Initialize the map
@@ -17,6 +18,50 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 
 // Define markers data for each time period
 const markersData = {
+  "1500BC": [
+    {
+      lat: 46.3644,
+      lon: 13.4428,
+      language: "Italic",
+      region: "",
+      notes: "Ancestor to all Italic/Romance languages",
+    },
+    {
+      lat: 47.243,
+      lon: 5.5302,
+      language: "Celtic",
+      region: "Gaul",
+      notes: "Ancestor to all Celtic languages.",
+    },
+    {
+      lat: 40.4637,
+      lon: -3.7492,
+      language: "Iberian",
+      region: "Iberian Peninsula",
+      notes: "Iberian languages.",
+    },
+    {
+      lat: 53.1,
+      lon: 10.2,
+      language: "Germanic",
+      region: "Germania Scandenavia",
+      notes: "Ancestor to all Germanic languages.",
+    },
+    {
+      lat: 55.0006,
+      lon: 23.3424,
+      language: "Baltic",
+      region: "Baltic Europe",
+      notes: "Ancestor to all Baltic languages.",
+    },
+    {
+      lat: 51.0519,
+      lon: 26.1433,
+      language: "Slavic",
+      region: "Eastern Europe",
+      notes: "Ancestor to all Slavic languages.",
+    },
+  ],
   "200BC": [
     {
       lat: 41.9028,
@@ -195,9 +240,12 @@ const markersData = {
 // Map of language to color
 const languageColorMap = {
   Latin: "blue",
+  Italic: "blue",
   Celtic: "green",
   Germanic: "red",
   Iberian: "purple",
+  Slavic: "yellow",
+  Baltic: "orange",
 };
 
 // Function to create a marker with a custom color based on the language
@@ -248,5 +296,5 @@ slider.addEventListener("input", (event) => {
   loadLanguageData(yearKey); // Load the markers for the selected year
 });
 
-// Initial load for 200 BC
-loadLanguageData("200BC");
+// Initial load for 1500 BC
+loadLanguageData("1500BC");
