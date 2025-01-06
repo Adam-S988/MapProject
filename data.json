@@ -63,6 +63,38 @@
       "notes": "Ancestor to all Slavic languages."
     }
   ],
+  "1000BC": [
+    {
+      "language": "Italic",
+      "region": "",
+      "notes": "Ancestor to all Italic/Romance languages"
+    },
+    {
+      "language": "Celtic",
+      "region": "Gaul, Britian, Central Europe",
+      "notes": "Ancestor to all Celtic languages."
+    },
+    {
+      "language": "Iberian",
+      "region": "Iberian Peninsula",
+      "notes": "Iberian languages."
+    },
+    {
+      "language": "Germanic",
+      "region": "Germania Scandenavia",
+      "notes": "Ancestor to all Germanic languages."
+    },
+    {
+      "language": "Baltic",
+      "region": "Baltic Europe",
+      "notes": "Ancestor to all Baltic languages."
+    },
+    {
+      "language": "Slavic",
+      "region": "Eastern Europe",
+      "notes": "Ancestor to all Slavic languages."
+    }
+  ],
   "200BC": [
     {
       "region": "Italian Peninsula",
