@@ -1,11 +1,12 @@
 // Map slider values to years
 const yearMap = {
   1: "1500BC",
-  2: "200BC",
-  3: "1AD",
-  4: "100AD",
-  5: "200AD",
-  6: "500AD",
+  2: "1000BC",
+  3: "200BC",
+  4: "1AD",
+  5: "100AD",
+  6: "200AD",
+  7: "500AD",
 };
 
 // Initialize the map
@@ -29,6 +30,50 @@ const markersData = {
     {
       lat: 47.243,
       lon: 5.5302,
+      language: "Celtic",
+      region: "Gaul",
+      notes: "Ancestor to all Celtic languages.",
+    },
+    {
+      lat: 40.4637,
+      lon: -3.7492,
+      language: "Iberian",
+      region: "Iberian Peninsula",
+      notes: "Iberian languages.",
+    },
+    {
+      lat: 53.1,
+      lon: 10.2,
+      language: "Germanic",
+      region: "Germania Scandenavia",
+      notes: "Ancestor to all Germanic languages.",
+    },
+    {
+      lat: 55.0006,
+      lon: 23.3424,
+      language: "Baltic",
+      region: "Baltic Europe",
+      notes: "Ancestor to all Baltic languages.",
+    },
+    {
+      lat: 51.0519,
+      lon: 26.1433,
+      language: "Slavic",
+      region: "Eastern Europe",
+      notes: "Ancestor to all Slavic languages.",
+    },
+  ],
+  "1000BC": [
+    {
+      lat: 45.3644,
+      lon: 12.4428,
+      language: "Italic",
+      region: "",
+      notes: "Ancestor to all Italic/Romance languages",
+    },
+    {
+      lat: 47.243,
+      lon: 3.5302,
       language: "Celtic",
       region: "Gaul",
       notes: "Ancestor to all Celtic languages.",
@@ -287,7 +332,7 @@ const slider = document.getElementById("timeSlider");
 const yearLabel = document.getElementById("yearLabel");
 
 // Set the slider's max value to 5 to match the years in yearMap
-slider.max = 5;
+slider.max = 10;
 
 // Event listener for the slider input
 slider.addEventListener("input", (event) => {
