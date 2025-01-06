@@ -1,3 +1,7 @@
+body {
+  background-color: blanchedalmond;
+}
+
 #controls {
   margin: 20px;
   text-align: center;
@@ -5,4 +9,57 @@
 
 #timeSlider {
   width: 80%;
+}
+
+#map {
+  width: 90%;
+  height: 80vh;
+  margin: 0 auto;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+#controls {
+  margin: 20px;
+  text-align: center;
+}
+
+#timeSlider {
+  -webkit-appearance: none; /* Remove default styling */
+  width: 80%;
+  height: 10px;
+  background: linear-gradient(
+    to right,
+    #db3434,
+    #2ecc71
+  ); /* Gradient background */
+  border-radius: 5px;
+  outline: none;
+  opacity: 0.9;
+  transition: opacity 0.2s;
+}
+
+#timeSlider:hover {
+  opacity: 1; /* Brighten slider on hover */
+}
+
+#timeSlider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Remove default styling for Webkit browsers */
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: #3ca5e7;
+  border: 2px solid #34495e;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#timeSlider::-webkit-slider-thumb:hover {
+  background-color: #3592cd; /* Change thumb color on hover */
 }
