@@ -465,6 +465,10 @@ function loadLanguageData(year) {
 // Get slider and year label elements
 const slider = document.getElementById("timeSlider");
 const yearLabel = document.getElementById("yearLabel");
+const playButton = document.getElementById("playButton");
+
+let intervalId; // To store the interval ID
+let isPlaying = false; // To track if the play button is active
 
 // Set the slider's max value to 5 to match the years in yearMap
 slider.max = 10;
@@ -474,6 +478,37 @@ slider.addEventListener("input", (event) => {
   const yearKey = yearMap[event.target.value];
   yearLabel.textContent = yearKey.replace("BC", " BC").replace("AD", " AD");
   loadLanguageData(yearKey); // Load the markers for the selected year
+});
+
+// Event listener for the Play button
+playButton.addEventListener("click", () => {
+  if (isPlaying) {
+    clearInterval(intervalId); // Stop the interval if it's running
+    playButton.textContent = "Play"; // Change button text back to "Play"
+    isPlaying = false;
+  } else {
+    isPlaying = true;
+    playButton.textContent = "Pause"; // Change button text to "Pause"
+
+    let currentValue = parseInt(slider.value); // Get the current slider value
+    const maxValue = parseInt(slider.max); // Get the maximum slider value
+
+    intervalId = setInterval(() => {
+      if (currentValue <= maxValue) {
+        const yearKey = yearMap[currentValue];
+        yearLabel.textContent = yearKey
+          .replace("BC", " BC")
+          .replace("AD", " AD");
+        loadLanguageData(yearKey); // Load the markers for the current year
+        slider.value = currentValue; // Update the slider to match
+        currentValue += 1; // Move to the next year
+      } else {
+        clearInterval(intervalId); // Stop the interval when the max is reached
+        playButton.textContent = "Play"; // Reset the button text
+        isPlaying = false;
+      }
+    }, 2000); // Change year every 2 seconds (adjust as needed)
+  }
 });
 
 // Initial load for 1500 BC
