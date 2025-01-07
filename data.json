@@ -71,8 +71,23 @@
     },
     {
       "language": "Celtic",
-      "region": "Gaul, Britian, Central Europe",
-      "notes": "Ancestor to all Celtic languages."
+      "region": "Britain, Ireland, Gaul, Iberia",
+      "notes": "Ancestor to Insular Celtic languages."
+    },
+    {
+      "language": "Celtic",
+      "region": "Gaul",
+      "notes": "Ancestor to Contenental Celtic languages."
+    },
+    {
+      "language": "Celtic",
+      "region": "South Europe",
+      "notes": "Lepontic."
+    },
+    {
+      "language": "Celtic",
+      "region": "Central Europe",
+      "notes": "Noric."
     },
     {
       "language": "Iberian",
@@ -103,8 +118,23 @@
     },
     {
       "language": "Celtic",
-      "region": "Gaul, Britian, Central Europe",
-      "notes": "Ancestor to all Celtic languages."
+      "region": "Britain, Ireland, Gaul, Iberia",
+      "notes": "Ancestor to Insular Celtic languages."
+    },
+    {
+      "language": "Celtic",
+      "region": "Gaul, Britain",
+      "notes": "Ancestor to Contenental Celtic languages."
+    },
+    {
+      "language": "Celtic",
+      "region": "South Europe",
+      "notes": "Lepontic."
+    },
+    {
+      "language": "Celtic",
+      "region": "Central Europe",
+      "notes": "Noric."
     },
     {
       "language": "Iberian",
@@ -135,8 +165,23 @@
     },
     {
       "language": "Celtic",
-      "region": "Gaul, Britian, Central Europe, Ireland, Iberia",
-      "notes": "Ancestor to all Celtic languages."
+      "region": "Britain, Ireland, Iberia",
+      "notes": "Ancestor to Insular Celtic languages."
+    },
+    {
+      "language": "Celtic",
+      "region": "Gaul, Britain, Iberia, Central Europe",
+      "notes": "Ancestor to Contenental Celtic languages."
+    },
+    {
+      "language": "Celtic",
+      "region": "South Europe",
+      "notes": "Lepontic."
+    },
+    {
+      "language": "Celtic",
+      "region": "Central Europe",
+      "notes": "Noric."
     },
     {
       "language": "Iberian",
@@ -171,9 +216,44 @@
       "notes": "Iberian languages dominate, with some influence from Celtic and Greek colonies."
     },
     {
-      "region": "Gaul",
       "language": "Celtic",
-      "notes": "Celtic languages are widely spoken across Gaul (modern France)."
+      "region": "Britain",
+      "notes": "Brythonic languages."
+    },
+    {
+      "language": "Celtic",
+      "region": "Ireland",
+      "notes": "Goidelic languages."
+    },
+    {
+      "language": "Celtic",
+      "region": "Gaul, Britain, Central Europe",
+      "notes": "Gaulish language."
+    },
+    {
+      "language": "Celtic",
+      "region": "Anatolia",
+      "notes": "Galatian language."
+    },
+    {
+      "language": "Celtic",
+      "region": "Iberia",
+      "notes": "Celtiberian language."
+    },
+    {
+      "language": "Celtic",
+      "region": "Iberia",
+      "notes": "Gallaecian language."
+    },
+    {
+      "language": "Celtic",
+      "region": "South Europe",
+      "notes": "Lepontic."
+    },
+    {
+      "language": "Celtic",
+      "region": "Central Europe",
+      "notes": "Noric."
     }
   ],
   "1AD": [
@@ -188,9 +268,39 @@
       "notes": "Germanic tribes dominate the areas beyond the Roman borders."
     },
     {
-      "region": "Britain",
       "language": "Celtic",
-      "notes": "Celtic languages remain dominant in Britain, with limited Roman influence in the south."
+      "region": "Britain",
+      "notes": "Brythonic languages."
+    },
+    {
+      "language": "Celtic",
+      "region": "Ireland",
+      "notes": "Goidelic languages."
+    },
+    {
+      "language": "Celtic",
+      "region": "Gaul, Britain, Central Europe",
+      "notes": "Gaulish language."
+    },
+    {
+      "language": "Celtic",
+      "region": "Anatolia",
+      "notes": "Galatian language."
+    },
+    {
+      "language": "Celtic",
+      "region": "Iberia",
+      "notes": "Celtiberian language."
+    },
+    {
+      "language": "Celtic",
+      "region": "Iberia",
+      "notes": "Gallaecian language."
+    },
+    {
+      "language": "Celtic",
+      "region": "Central Europe",
+      "notes": "Noric."
     }
   ],
   "500AD": [
