@@ -389,6 +389,13 @@ const markersData = {
       notes: "Germanic languages start to spread.",
     },
     {
+      lat: 51.0519,
+      lon: 26.1433,
+      language: "Slavic",
+      region: "Eastern Europe",
+      notes: "Ancestor to all Slavic languages.",
+    },
+    {
       lat: 55.0006,
       lon: 23.3424,
       language: "Baltic",
@@ -459,6 +466,13 @@ const markersData = {
       language: "Celtic",
       region: "Central Europe",
       notes: "Noric",
+    },
+    {
+      lat: 51.0519,
+      lon: 26.1433,
+      language: "Slavic",
+      region: "Eastern Europe",
+      notes: "Ancestor to all Slavic languages.",
     },
     {
       lat: 55.0006,
@@ -545,6 +559,13 @@ const markersData = {
       language: "Celtic",
       region: "Central Europe",
       notes: "Noric",
+    },
+    {
+      lat: 51.0519,
+      lon: 26.1433,
+      language: "Slavic",
+      region: "Eastern Europe",
+      notes: "Ancestor to all Slavic languages.",
     },
     {
       lat: 55.0006,
@@ -648,6 +669,13 @@ const markersData = {
       notes: "Noric",
     },
     {
+      lat: 51.0519,
+      lon: 26.1433,
+      language: "Slavic",
+      region: "Eastern Europe",
+      notes: "Ancestor to all Slavic languages.",
+    },
+    {
       lat: 55.0006,
       lon: 23.3424,
       language: "Baltic",
@@ -699,6 +727,13 @@ const markersData = {
       notes: "Celtiberian language.",
     },
     {
+      lat: 51.0519,
+      lon: 26.1433,
+      language: "Slavic",
+      region: "Eastern Europe, Central Europe",
+      notes: "Ancestor to all Slavic languages.",
+    },
+    {
       lat: 55.0006,
       lon: 23.3424,
       language: "Baltic",
@@ -748,6 +783,13 @@ const markersData = {
       language: "Celtic",
       region: "Iberia",
       notes: "Celtiberian language.",
+    },
+    {
+      lat: 51.0519,
+      lon: 26.1433,
+      language: "Slavic",
+      region: "Eastern Europe",
+      notes: "Ancestor to all Slavic languages.",
     },
     {
       lat: 55.0006,
@@ -837,6 +879,13 @@ const markersData = {
       notes: "Gaulish language.",
     },
     {
+      lat: 51.0519,
+      lon: 26.1433,
+      language: "Slavic",
+      region: "Eastern Europe, Central Europe",
+      notes: "Ancestor to all Slavic languages.",
+    },
+    {
       lat: 55.0006,
       lon: 23.3424,
       language: "Baltic",
@@ -872,6 +921,13 @@ const markersData = {
       language: "Celtic",
       region: "Gaul",
       notes: "Gaulish language.",
+    },
+    {
+      lat: 51.0519,
+      lon: 26.1433,
+      language: "Slavic",
+      region: "Eastern Europe, Central Europe, Southern Europe",
+      notes: "Ancestor to all Slavic languages.",
     },
     {
       lat: 54.3613,
@@ -923,6 +979,13 @@ const markersData = {
       language: "Celtic",
       region: "Gaul",
       notes: "Gaulish language.",
+    },
+    {
+      lat: 51.0519,
+      lon: 26.1433,
+      language: "Slavic",
+      region: "Eastern Europe, Central Europe, Southern Europe",
+      notes: "Ancestor to all Slavic languages.",
     },
     {
       lat: 54.3613,
@@ -1002,6 +1065,27 @@ const markersData = {
       language: "Celtic",
       region: "Mann",
       notes: "Manx",
+    },
+    {
+      lat: 51.0519,
+      lon: 26.1433,
+      language: "Slavic",
+      region: "Eastern Europe",
+      notes: "East Slavic languages.",
+    },
+    {
+      lat: 51.5227,
+      lon: 19.0904,
+      language: "Slavic",
+      region: "Central Europe",
+      notes: "West Slavic languages.",
+    },
+    {
+      lat: 43.452,
+      lon: 23.0842,
+      language: "Slavic",
+      region: "Southern Europe",
+      notes: "South Slavic languages.",
     },
     {
       lat: 54.3613,
