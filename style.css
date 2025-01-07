@@ -30,14 +30,10 @@ body {
 }
 
 #timeSlider {
-  -webkit-appearance: none; /* Remove default styling */
+  -webkit-appearance: none;
   width: 80%;
   height: 10px;
-  background: linear-gradient(
-    to right,
-    #db3434,
-    #2ecc71
-  ); /* Gradient background */
+  background: linear-gradient(to right, #db3434, #2ecc71);
   border-radius: 5px;
   outline: none;
   opacity: 0.9;
@@ -45,11 +41,11 @@ body {
 }
 
 #timeSlider:hover {
-  opacity: 1; /* Brighten slider on hover */
+  opacity: 1;
 }
 
 #timeSlider::-webkit-slider-thumb {
-  -webkit-appearance: none; /* Remove default styling for Webkit browsers */
+  -webkit-appearance: none;
   appearance: none;
   width: 20px;
   height: 20px;
