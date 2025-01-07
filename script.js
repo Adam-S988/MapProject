@@ -388,6 +388,13 @@ const markersData = {
       region: "Germania Scandenavia",
       notes: "Germanic languages start to spread.",
     },
+    {
+      lat: 55.0006,
+      lon: 23.3424,
+      language: "Baltic",
+      region: "Baltic Europe",
+      notes: "Ancestor to all Baltic languages.",
+    },
   ],
   "1AD": [
     {
@@ -452,6 +459,13 @@ const markersData = {
       language: "Celtic",
       region: "Central Europe",
       notes: "Noric",
+    },
+    {
+      lat: 55.0006,
+      lon: 23.3424,
+      language: "Baltic",
+      region: "Baltic Europe",
+      notes: "Ancestor to all Baltic languages.",
     },
   ],
   "100AD": [
@@ -531,6 +545,13 @@ const markersData = {
       language: "Celtic",
       region: "Central Europe",
       notes: "Noric",
+    },
+    {
+      lat: 55.0006,
+      lon: 23.3424,
+      language: "Baltic",
+      region: "Baltic Europe",
+      notes: "Ancestor to all Baltic languages.",
     },
   ],
   "200AD": [
@@ -626,6 +647,13 @@ const markersData = {
       region: "Central Europe",
       notes: "Noric",
     },
+    {
+      lat: 55.0006,
+      lon: 23.3424,
+      language: "Baltic",
+      region: "Baltic Europe",
+      notes: "Ancestor to all Baltic languages.",
+    },
   ],
   "300AD": [
     {
@@ -670,6 +698,13 @@ const markersData = {
       region: "Iberia",
       notes: "Celtiberian language.",
     },
+    {
+      lat: 55.0006,
+      lon: 23.3424,
+      language: "Baltic",
+      region: "Baltic Europe",
+      notes: "Ancestor to all Baltic languages.",
+    },
   ],
   "400AD": [
     {
@@ -713,6 +748,13 @@ const markersData = {
       language: "Celtic",
       region: "Iberia",
       notes: "Celtiberian language.",
+    },
+    {
+      lat: 55.0006,
+      lon: 23.3424,
+      language: "Baltic",
+      region: "Baltic Europe",
+      notes: "Ancestor to all Baltic languages.",
     },
   ],
   "500AD": [
@@ -794,6 +836,13 @@ const markersData = {
       region: "Gaul",
       notes: "Gaulish language.",
     },
+    {
+      lat: 55.0006,
+      lon: 23.3424,
+      language: "Baltic",
+      region: "Baltic Europe",
+      notes: "Ancestor to all Baltic languages.",
+    },
   ],
   "600AD": [
     {
@@ -824,6 +873,27 @@ const markersData = {
       region: "Gaul",
       notes: "Gaulish language.",
     },
+    {
+      lat: 54.3613,
+      lon: 21.4004,
+      language: "Baltic",
+      region: "Baltic Europe",
+      notes: "Western Baltic languages.",
+    },
+    {
+      lat: 55.3444,
+      lon: 25.064,
+      language: "Baltic",
+      region: "Baltic Europe",
+      notes: "Eastern Baltic languages.",
+    },
+    {
+      lat: 56.0015,
+      lon: 34.0503,
+      language: "Baltic",
+      region: "Eastern Europe",
+      notes: "Dniepr languages.",
+    },
   ],
   "700AD": [
     {
@@ -853,6 +923,27 @@ const markersData = {
       language: "Celtic",
       region: "Gaul",
       notes: "Gaulish language.",
+    },
+    {
+      lat: 54.3613,
+      lon: 21.4004,
+      language: "Baltic",
+      region: "Baltic Europe",
+      notes: "Western Baltic languages.",
+    },
+    {
+      lat: 55.3444,
+      lon: 25.064,
+      language: "Baltic",
+      region: "Baltic Europe",
+      notes: "Eastern Baltic languages.",
+    },
+    {
+      lat: 56.0015,
+      lon: 34.0503,
+      language: "Baltic",
+      region: "Eastern Europe",
+      notes: "Dniepr languages.",
     },
   ],
   "800AD": [
@@ -911,6 +1002,27 @@ const markersData = {
       language: "Celtic",
       region: "Mann",
       notes: "Manx",
+    },
+    {
+      lat: 54.3613,
+      lon: 21.4004,
+      language: "Baltic",
+      region: "Baltic Europe",
+      notes: "Western Baltic languages.",
+    },
+    {
+      lat: 55.3444,
+      lon: 25.064,
+      language: "Baltic",
+      region: "Baltic Europe",
+      notes: "Eastern Baltic languages.",
+    },
+    {
+      lat: 56.0015,
+      lon: 34.0503,
+      language: "Baltic",
+      region: "Eastern Europe",
+      notes: "Dniepr languages.",
     },
   ],
 };
