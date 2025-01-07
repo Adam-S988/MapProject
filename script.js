@@ -198,6 +198,50 @@ const markersData = {
       notes: "Ancestor to all Slavic languages.",
     },
   ],
+  "400BC": [
+    {
+      lat: 43.575,
+      lon: 12.2751,
+      language: "Italic",
+      region: "Italy",
+      notes: "Ancestor to all Italic/Romance languages",
+    },
+    {
+      lat: 47.243,
+      lon: 3.5302,
+      language: "Celtic",
+      region: "Gaul, Britian, Central Europe, Ireland, Iberia",
+      notes: "Ancestor to all Celtic languages.",
+    },
+    {
+      lat: 42.0855,
+      lon: -7.4438,
+      language: "Iberian",
+      region: "Iberian Peninsula",
+      notes: "Iberian languages.",
+    },
+    {
+      lat: 53.1,
+      lon: 10.2,
+      language: "Germanic",
+      region: "Germania, Scandenavia",
+      notes: "Ancestor to all Germanic languages.",
+    },
+    {
+      lat: 55.0006,
+      lon: 23.3424,
+      language: "Baltic",
+      region: "Baltic Europe",
+      notes: "Ancestor to all Baltic languages.",
+    },
+    {
+      lat: 51.0519,
+      lon: 26.1433,
+      language: "Slavic",
+      region: "Eastern Europe",
+      notes: "Ancestor to all Slavic languages.",
+    },
+  ],
   "200BC": [
     {
       lat: 41.9028,
