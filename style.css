@@ -2,6 +2,12 @@ body {
   background-color: blanchedalmond;
 }
 
+h1 {
+  /* background-color: #9e7c03; */
+  text-align: center;
+  font-size: 300%;
+}
+
 #controls {
   margin: 20px;
   text-align: center;
