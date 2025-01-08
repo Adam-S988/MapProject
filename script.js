@@ -18,7 +18,7 @@ const yearMap = {
 };
 
 // Initialize the map
-const map = L.map("map").setView([45, 10], 4); // Centered on Europe
+const map = L.map("map").setView([50, 10], 4); // Centered on Europe
 
 // Add tile layer to map
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -121,7 +121,14 @@ const markersData = {
       lon: 12.4428,
       language: "Italic",
       region: "Italy",
-      notes: "Ancestor to all Italic/Romance languages",
+      notes: "Venetic",
+    },
+    {
+      lat: 42.2948,
+      lon: 13.5312,
+      language: "Italic",
+      region: "Italy",
+      notes: "Italic languages",
     },
     {
       lat: 50.5843,
@@ -182,11 +189,32 @@ const markersData = {
   ],
   "600BC": [
     {
-      lat: 43.575,
-      lon: 12.2751,
+      lat: 45.3644,
+      lon: 12.4428,
       language: "Italic",
       region: "Italy",
-      notes: "Ancestor to all Italic/Romance languages",
+      notes: "Venetic",
+    },
+    {
+      lat: 41.54,
+      lon: 12.29,
+      language: "Italic",
+      region: "Italy",
+      notes: "Latino-Faliscan",
+    },
+    {
+      lat: 42.2948,
+      lon: 13.5312,
+      language: "Italic",
+      region: "Italy",
+      notes: "Osco-Umbrian",
+    },
+    {
+      lat: 37.3541,
+      lon: 14.3639,
+      language: "Italic",
+      region: "Sicely",
+      notes: "Sicel",
     },
     {
       lat: 52.4125,
@@ -247,11 +275,46 @@ const markersData = {
   ],
   "400BC": [
     {
-      lat: 43.575,
-      lon: 12.2751,
+      lat: 45.3644,
+      lon: 12.4428,
       language: "Italic",
       region: "Italy",
-      notes: "Ancestor to all Italic/Romance languages",
+      notes: "Venetic",
+    },
+    {
+      lat: 41.54,
+      lon: 12.29,
+      language: "Italic",
+      region: "Italy",
+      notes: "Latin",
+    },
+    {
+      lat: 42.385,
+      lon: 12.0906,
+      language: "Italic",
+      region: "Italy",
+      notes: "Faliscan",
+    },
+    {
+      lat: 41.1115,
+      lon: 15.2631,
+      language: "Italic",
+      region: "Italy",
+      notes: "Oscan",
+    },
+    {
+      lat: 43.2355,
+      lon: 13.0018,
+      language: "Italic",
+      region: "Italy",
+      notes: "Umbrian",
+    },
+    {
+      lat: 37.3541,
+      lon: 14.3639,
+      language: "Italic",
+      region: "Sicely",
+      notes: "Sicel",
     },
     {
       lat: 52.4125,
@@ -312,11 +375,39 @@ const markersData = {
   ],
   "200BC": [
     {
-      lat: 41.9028,
-      lon: 12.4964,
-      language: "Latin",
-      region: "Roman Empire (Italy)",
-      notes: "Main language of Rome.",
+      lat: 45.3644,
+      lon: 12.4428,
+      language: "Italic",
+      region: "Italy",
+      notes: "Venetic",
+    },
+    {
+      lat: 41.54,
+      lon: 12.29,
+      language: "Italic",
+      region: "Italy",
+      notes: "Latin",
+    },
+    {
+      lat: 42.385,
+      lon: 12.0906,
+      language: "Italic",
+      region: "Italy",
+      notes: "Faliscan",
+    },
+    {
+      lat: 41.1115,
+      lon: 15.2631,
+      language: "Italic",
+      region: "Italy",
+      notes: "Oscan",
+    },
+    {
+      lat: 43.2355,
+      lon: 13.0018,
+      language: "Italic",
+      region: "Italy",
+      notes: "Umbrian",
     },
     {
       lat: 52.4125,
@@ -419,11 +510,26 @@ const markersData = {
   ],
   "1AD": [
     {
-      lat: 43.65107,
-      lon: 6.0131,
-      language: "Latin",
-      region: "Western Europe (Roman Empire)",
-      notes: "Latin is the dominant language.",
+      lat: 41.54,
+      lon: 12.29,
+      language: "Italic",
+      region: "Italy",
+      notes: "Classical Latin",
+    },
+    {
+      lat: 45.0302,
+      lon: 10.1812,
+      language: "Italic",
+      region:
+        "Italy, Gaul, Central Europe, Iberia, Eastern Europe, Southern Europe, Anatolia, Africa",
+      notes: "Vulgar Latin",
+    },
+    {
+      lat: 41.1115,
+      lon: 15.2631,
+      language: "Italic",
+      region: "Italy",
+      notes: "Oscan",
     },
     {
       lat: 53.1,
@@ -512,11 +618,19 @@ const markersData = {
   ],
   "100AD": [
     {
-      lat: 43.65107,
-      lon: 6.0131,
-      language: "Latin",
-      region: "Western Europe (Roman Empire)",
-      notes: "Latin is the dominant language.",
+      lat: 41.54,
+      lon: 12.29,
+      language: "Italic",
+      region: "Italy",
+      notes: "Classical Latin",
+    },
+    {
+      lat: 44.483,
+      lon: 4.4223,
+      language: "Italic",
+      region:
+        "Italy, Gaul, Central Europe, Iberia, Eastern Europe, Southern Europe, Anatolia, Africa, Britian",
+      notes: "Vulgar Latin",
     },
     {
       lat: 51.3102,
@@ -619,11 +733,19 @@ const markersData = {
   ],
   "200AD": [
     {
-      lat: 43.65107,
-      lon: 6.0131,
-      language: "Latin",
-      region: "Western Europe (Roman Empire)",
-      notes: "Latin is the dominant language.",
+      lat: 41.54,
+      lon: 12.29,
+      language: "Italic",
+      region: "Italy",
+      notes: "Classical Latin",
+    },
+    {
+      lat: 44.483,
+      lon: 4.4223,
+      language: "Italic",
+      region:
+        "Italy, Gaul, Central Europe, Iberia, Eastern Europe, Southern Europe, Anatolia, Africa, Britian",
+      notes: "Vulgar Latin",
     },
     {
       lat: 51.3102,
@@ -726,6 +848,21 @@ const markersData = {
   ],
   "300AD": [
     {
+      lat: 41.54,
+      lon: 12.29,
+      language: "Italic",
+      region: "Italy",
+      notes: "Classical Latin",
+    },
+    {
+      lat: 44.483,
+      lon: 4.4223,
+      language: "Italic",
+      region:
+        "Italy, Gaul, Central Europe, Iberia, Eastern Europe, Southern Europe, Anatolia, Africa, Britian",
+      notes: "Vulgar Latin",
+    },
+    {
       lat: 51.3102,
       lon: 11.261,
       language: "Germanic",
@@ -818,6 +955,35 @@ const markersData = {
     },
   ],
   "400AD": [
+    {
+      lat: 41.54,
+      lon: 12.29,
+      language: "Italic",
+      region: "Italy",
+      notes: "Classical Latin",
+    },
+    {
+      lat: 44.483,
+      lon: 4.4223,
+      language: "Italic",
+      region:
+        "Italy, Gaul, Central Europe, Iberia, Eastern Europe, Southern Europe, Anatolia, Africa, Britian",
+      notes: "Vulgar Latin",
+    },
+    {
+      lat: 40.083,
+      lon: 8.5748,
+      language: "Italic",
+      region: "Sardinian",
+      notes: "Sardinia",
+    },
+    {
+      lat: 34.5814,
+      lon: 2.0841,
+      language: "Italic",
+      region: "Africa",
+      notes: "African Romance",
+    },
     {
       lat: 51.3102,
       lon: 11.261,
@@ -912,11 +1078,61 @@ const markersData = {
   ],
   "500AD": [
     {
-      lat: 48.8566,
-      lon: 2.3522,
-      language: "Latin",
+      lat: 41.54,
+      lon: 12.29,
+      language: "Italic",
       region: "Italy",
-      notes: "Latin remains dominant in Italy.",
+      notes: "Italo-Dalmantian",
+    },
+    {
+      lat: 44.483,
+      lon: 4.4223,
+      language: "Italic",
+      region:
+        "Italy, Gaul, Central Europe, Iberia, Eastern Europe, Southern Europe, Anatolia, Africa, Britian",
+      notes: "Vulgar Latin",
+    },
+    {
+      lat: 42.1217,
+      lon: 27.1934,
+      language: "Italic",
+      region: "Southern Europe, Anatolia",
+      notes: "Lste Latin",
+    },
+    {
+      lat: 43.0118,
+      lon: -0.1547,
+      language: "Italic",
+      region: "Gaul, Iberia",
+      notes: "Western Romance",
+    },
+    {
+      lat: 43.3408,
+      lon: 23.2006,
+      language: "Italic",
+      region: "Eastern Europe, Southern Europe",
+      notes: "Eastern Romance",
+    },
+    {
+      lat: 46.3313,
+      lon: 15.55,
+      language: "Italic",
+      region: "Southern Europe",
+      notes: "Panonian Romance",
+    },
+    {
+      lat: 40.083,
+      lon: 8.5748,
+      language: "Italic",
+      region: "Sardinian",
+      notes: "Sardinia",
+    },
+    {
+      lat: 34.5814,
+      lon: 2.0841,
+      language: "Italic",
+      region: "Africa",
+      notes: "African Romance",
     },
     {
       lat: 51.3102,
@@ -997,6 +1213,63 @@ const markersData = {
     },
   ],
   "600AD": [
+    {
+      lat: 41.54,
+      lon: 12.29,
+      language: "Italic",
+      region: "Italy",
+      notes: "Italo-Dalmantian",
+    },
+    {
+      lat: 44.483,
+      lon: 4.4223,
+      language: "Italic",
+      region:
+        "Italy, Gaul, Central Europe, Iberia, Eastern Europe, Southern Europe, Anatolia, Africa, Britian",
+      notes: "Vulgar Latin",
+    },
+    {
+      lat: 42.1217,
+      lon: 27.1934,
+      language: "Italic",
+      region: "Southern Europe, Anatolia",
+      notes: "Late Latin",
+    },
+    {
+      lat: 43.0118,
+      lon: -0.1547,
+      language: "Italic",
+      region: "Gaul, Iberia",
+      notes: "Western Romance",
+    },
+    {
+      lat: 43.3408,
+      lon: 23.2006,
+      language: "Italic",
+      region: "Eastern Europe, Southern Europe",
+      notes: "Eastern Romance",
+    },
+    {
+      lat: 46.3313,
+      lon: 15.55,
+      language: "Italic",
+      region: "Southern Europe",
+      notes: "Panonian Romance",
+    },
+    {
+      lat: 40.083,
+      lon: 8.5748,
+      language: "Italic",
+      region: "Sardinian",
+      notes: "Sardinia",
+    },
+    {
+      lat: 34.5814,
+      lon: 2.0841,
+      language: "Italic",
+      region: "Africa",
+      notes: "African Romance",
+    },
     {
       lat: 51.3102,
       lon: 11.261,
@@ -1090,6 +1363,62 @@ const markersData = {
     },
   ],
   "700AD": [
+    {
+      lat: 41.54,
+      lon: 12.29,
+      language: "Italic",
+      region: "Italy",
+      notes: "Italo-Dalmantian",
+    },
+    {
+      lat: 42.1217,
+      lon: 27.1934,
+      language: "Italic",
+      region: "Europe",
+      notes: "Medieval Latin",
+    },
+    {
+      lat: 45.4222,
+      lon: 2.3952,
+      language: "Italic",
+      region: "Gaul",
+      notes: "Gallo-Romance",
+    },
+    {
+      lat: 39.3525,
+      lon: -4.4545,
+      language: "Italic",
+      region: "Iberia",
+      notes: "Iberian Romance",
+    },
+    {
+      lat: 44.29,
+      lon: 25.0135,
+      language: "Italic",
+      region: "Eastern Europe",
+      notes: "Proto-Romanian",
+    },
+    {
+      lat: 46.3313,
+      lon: 15.55,
+      language: "Italic",
+      region: "Southern Europe",
+      notes: "Panonian Romance",
+    },
+    {
+      lat: 40.083,
+      lon: 8.5748,
+      language: "Italic",
+      region: "Sardinian",
+      notes: "Sardinia",
+    },
+    {
+      lat: 34.5814,
+      lon: 2.0841,
+      language: "Italic",
+      region: "Africa",
+      notes: "African Romance",
+    },
     {
       lat: 53.0555,
       lon: 11.3932,
@@ -1190,6 +1519,69 @@ const markersData = {
     },
   ],
   "800AD": [
+    {
+      lat: 41.54,
+      lon: 12.29,
+      language: "Italic",
+      region: "Italy",
+      notes: "Italo-Dalmantian",
+    },
+    {
+      lat: 42.1217,
+      lon: 27.1934,
+      language: "Italic",
+      region: "Europe",
+      notes: "Medieval Latin",
+    },
+    {
+      lat: 45.4222,
+      lon: 2.3952,
+      language: "Italic",
+      region: "Gaul",
+      notes: "Gallo-Romance",
+    },
+    {
+      lat: 39.3525,
+      lon: -4.4545,
+      language: "Italic",
+      region: "Iberia",
+      notes: "Iberian Romance",
+    },
+    {
+      lat: 44.29,
+      lon: 25.0135,
+      language: "Italic",
+      region: "Eastern Europe",
+      notes: "Romanian",
+    },
+    {
+      lat: 41.4617,
+      lon: 20.5221,
+      language: "Italic",
+      region: "Eastern Europe",
+      notes: "Aromanian",
+    },
+    {
+      lat: 46.3313,
+      lon: 15.55,
+      language: "Italic",
+      region: "Southern Europe",
+      notes: "Panonian Romance",
+    },
+    {
+      lat: 40.083,
+      lon: 8.5748,
+      language: "Italic",
+      region: "Sardinian",
+      notes: "Sardinia",
+    },
+    {
+      lat: 34.5814,
+      lon: 2.0841,
+      language: "Italic",
+      region: "Africa",
+      notes: "African Romance",
+    },
     {
       lat: 53.0555,
       lon: 11.3932,
