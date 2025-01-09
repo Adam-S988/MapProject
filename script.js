@@ -29,6 +29,34 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 const markersData = {
   "1500BC": [
     {
+      lat: 39.3942,
+      lon: 36.3341,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Hittite",
+    },
+    {
+      lat: 39.4201,
+      lon: 27.373,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Proto-Lydian",
+    },
+    {
+      lat: 37.2327,
+      lon: 34.1258,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Luwic",
+    },
+    {
+      lat: 41.03,
+      lon: 31.4927,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Palaic",
+    },
+    {
       lat: 46.3644,
       lon: 13.4428,
       language: "Italic",
@@ -73,6 +101,34 @@ const markersData = {
   ],
   "1000BC": [
     {
+      lat: 39.3942,
+      lon: 36.3341,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Luwian",
+    },
+    {
+      lat: 38.391,
+      lon: 28.1158,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Lydian",
+    },
+    {
+      lat: 37.1824,
+      lon: 27.5149,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Carian",
+    },
+    {
+      lat: 36.2713,
+      lon: 29.424,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Lycian",
+    },
+    {
       lat: 45.3644,
       lon: 12.4428,
       language: "Italic",
@@ -116,6 +172,41 @@ const markersData = {
     },
   ],
   "800BC": [
+    {
+      lat: 39.3942,
+      lon: 36.3341,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Luwian",
+    },
+    {
+      lat: 38.391,
+      lon: 28.1158,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Lydian",
+    },
+    {
+      lat: 37.1824,
+      lon: 27.5149,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Carian",
+    },
+    {
+      lat: 36.2713,
+      lon: 29.424,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Lycian",
+    },
+    {
+      lat: 37.2607,
+      lon: 31.0311,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Pisidian",
+    },
     {
       lat: 45.3644,
       lon: 12.4428,
@@ -188,6 +279,55 @@ const markersData = {
     },
   ],
   "600BC": [
+    {
+      lat: 39.3942,
+      lon: 36.3341,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Luwian",
+    },
+    {
+      lat: 38.391,
+      lon: 28.1158,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Lydian",
+    },
+    {
+      lat: 37.1824,
+      lon: 27.5149,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Carian",
+    },
+    {
+      lat: 36.2713,
+      lon: 29.424,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Lycian",
+    },
+    {
+      lat: 37.1507,
+      lon: 29.4859,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Milyan",
+    },
+    {
+      lat: 37.0223,
+      lon: 33.2221,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Sidetic",
+    },
+    {
+      lat: 37.2607,
+      lon: 31.0311,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Pisidian",
+    },
     {
       lat: 45.3644,
       lon: 12.4428,
@@ -274,6 +414,62 @@ const markersData = {
     },
   ],
   "400BC": [
+    {
+      lat: 39.3942,
+      lon: 36.3341,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Ancient Cappadocian",
+    },
+    {
+      lat: 38.391,
+      lon: 28.1158,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Lydian",
+    },
+    {
+      lat: 37.1824,
+      lon: 27.5149,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Carian",
+    },
+    {
+      lat: 36.2713,
+      lon: 29.424,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Lycian",
+    },
+    {
+      lat: 37.1507,
+      lon: 29.4859,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Milyan",
+    },
+    {
+      lat: 37.0223,
+      lon: 33.2221,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Sidetic",
+    },
+    {
+      lat: 36.2303,
+      lon: 33.2829,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Isaurian",
+    },
+    {
+      lat: 37.2607,
+      lon: 31.0311,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Pisidian",
+    },
     {
       lat: 45.3644,
       lon: 12.4428,
@@ -374,6 +570,48 @@ const markersData = {
     },
   ],
   "200BC": [
+    {
+      lat: 39.3942,
+      lon: 36.3341,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Ancient Cappadocian",
+    },
+    {
+      lat: 38.391,
+      lon: 28.1158,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Lydian",
+    },
+    {
+      lat: 37.1824,
+      lon: 27.5149,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Carian",
+    },
+    {
+      lat: 36.2713,
+      lon: 29.424,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Lycian",
+    },
+    {
+      lat: 36.2303,
+      lon: 33.2829,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Isaurian",
+    },
+    {
+      lat: 37.2607,
+      lon: 31.0311,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Pisidian",
+    },
     {
       lat: 45.3644,
       lon: 12.4428,
@@ -510,6 +748,34 @@ const markersData = {
   ],
   "1AD": [
     {
+      lat: 39.3942,
+      lon: 36.3341,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Ancient Cappadocian",
+    },
+    {
+      lat: 36.2713,
+      lon: 29.424,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Lycian",
+    },
+    {
+      lat: 36.2303,
+      lon: 33.2829,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Isaurian",
+    },
+    {
+      lat: 37.2607,
+      lon: 31.0311,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Pisidian",
+    },
+    {
       lat: 41.54,
       lon: 12.29,
       language: "Italic",
@@ -617,6 +883,27 @@ const markersData = {
     },
   ],
   "100AD": [
+    {
+      lat: 39.3942,
+      lon: 36.3341,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Ancient Cappadocian",
+    },
+    {
+      lat: 36.2303,
+      lon: 33.2829,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Isaurian",
+    },
+    {
+      lat: 37.2607,
+      lon: 31.0311,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Pisidian",
+    },
     {
       lat: 41.54,
       lon: 12.29,
@@ -733,6 +1020,27 @@ const markersData = {
   ],
   "200AD": [
     {
+      lat: 39.3942,
+      lon: 36.3341,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Ancient Cappadocian",
+    },
+    {
+      lat: 36.2303,
+      lon: 33.2829,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Isaurian",
+    },
+    {
+      lat: 37.2607,
+      lon: 31.0311,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Pisidian",
+    },
+    {
       lat: 41.54,
       lon: 12.29,
       language: "Italic",
@@ -848,6 +1156,20 @@ const markersData = {
   ],
   "300AD": [
     {
+      lat: 39.3942,
+      lon: 36.3341,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Ancient Cappadocian",
+    },
+    {
+      lat: 36.2303,
+      lon: 33.2829,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Isaurian",
+    },
+    {
       lat: 41.54,
       lon: 12.29,
       language: "Italic",
@@ -955,6 +1277,20 @@ const markersData = {
     },
   ],
   "400AD": [
+    {
+      lat: 39.3942,
+      lon: 36.3341,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Ancient Cappadocian",
+    },
+    {
+      lat: 36.2303,
+      lon: 33.2829,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Isaurian",
+    },
     {
       lat: 41.54,
       lon: 12.29,
@@ -1077,6 +1413,20 @@ const markersData = {
     },
   ],
   "500AD": [
+    {
+      lat: 39.3942,
+      lon: 36.3341,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Ancient Cappadocian",
+    },
+    {
+      lat: 36.2303,
+      lon: 33.2829,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Isaurian",
+    },
     {
       lat: 41.54,
       lon: 12.29,
@@ -1213,6 +1563,20 @@ const markersData = {
     },
   ],
   "600AD": [
+    {
+      lat: 39.3942,
+      lon: 36.3341,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Ancient Cappadocian",
+    },
+    {
+      lat: 36.2303,
+      lon: 33.2829,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Isaurian",
+    },
     {
       lat: 41.54,
       lon: 12.29,
@@ -1755,6 +2119,7 @@ const languageColorMap = {
   Iberian: "purple",
   Slavic: "yellow",
   Baltic: "orange",
+  Anatolian: "brown",
 };
 
 // Function to create a marker with a custom color based on the language
