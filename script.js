@@ -29,6 +29,27 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 const markersData = {
   "1500BC": [
     {
+      lat: 40.0016,
+      lon: 20.4451,
+      language: "Hellenic",
+      region: "Balkans",
+      notes: "Western Greek",
+    },
+    {
+      lat: 37.4556,
+      lon: 22.4702,
+      language: "Hellenic",
+      region: "Balkans",
+      notes: "Eastern Greek",
+    },
+    {
+      lat: 39.1021,
+      lon: 22.2848,
+      language: "Hellenic",
+      region: "Balkans",
+      notes: "Central Greek",
+    },
+    {
       lat: 39.3942,
       lon: 36.3341,
       language: "Anatolian",
@@ -101,6 +122,27 @@ const markersData = {
   ],
   "1000BC": [
     {
+      lat: 40.0016,
+      lon: 20.4451,
+      language: "Hellenic",
+      region: "Balkans",
+      notes: "Western Greek",
+    },
+    {
+      lat: 37.4556,
+      lon: 22.4702,
+      language: "Hellenic",
+      region: "Balkans",
+      notes: "Eastern Greek",
+    },
+    {
+      lat: 39.1021,
+      lon: 22.2848,
+      language: "Hellenic",
+      region: "Balkans",
+      notes: "Central Greek",
+    },
+    {
       lat: 39.3942,
       lon: 36.3341,
       language: "Anatolian",
@@ -172,6 +214,48 @@ const markersData = {
     },
   ],
   "800BC": [
+    {
+      lat: 40.0016,
+      lon: 20.4451,
+      language: "Hellenic",
+      region: "Balkans",
+      notes: "Western Doric",
+    },
+    {
+      lat: 40.4057,
+      lon: 20.5258,
+      language: "Hellenic",
+      region: "Balkans",
+      notes: "Macedonian",
+    },
+    {
+      lat: 39.1311,
+      lon: 22.3411,
+      language: "Hellenic",
+      region: "Balkans, Anatolia",
+      notes: "Aeolic",
+    },
+    {
+      lat: 36.5816,
+      lon: 22.4305,
+      language: "Hellenic",
+      region: "Balkans",
+      notes: "Doric",
+    },
+    {
+      lat: 38.0412,
+      lon: 24.3103,
+      language: "Hellenic",
+      region: "Balkans, Anatolian",
+      notes: "Ionic",
+    },
+    {
+      lat: 37.3118,
+      lon: 21.5711,
+      language: "Hellenic",
+      region: "Balkans, Cyprus",
+      notes: "Arcadocypriot",
+    },
     {
       lat: 39.3942,
       lon: 36.3341,
@@ -279,6 +363,55 @@ const markersData = {
     },
   ],
   "600BC": [
+    {
+      lat: 40.0016,
+      lon: 20.4451,
+      language: "Hellenic",
+      region: "Balkans, Italy",
+      notes: "Western Doric",
+    },
+    {
+      lat: 40.4057,
+      lon: 20.5258,
+      language: "Hellenic",
+      region: "Balkans",
+      notes: "Macedonian",
+    },
+    {
+      lat: 39.1311,
+      lon: 22.3411,
+      language: "Hellenic",
+      region: "Balkans, Anatolia",
+      notes: "Aeolic",
+    },
+    {
+      lat: 36.5816,
+      lon: 22.4305,
+      language: "Hellenic",
+      region: "Balkans, Sicilly, Africa",
+      notes: "Doric",
+    },
+    {
+      lat: 38.0412,
+      lon: 24.3103,
+      language: "Hellenic",
+      region: "Balkans, Anatolian, Italy",
+      notes: "Ionic",
+    },
+    {
+      lat: 37.3118,
+      lon: 21.5711,
+      language: "Hellenic",
+      region: "Balkans, Cyprus",
+      notes: "Arcadocypriot",
+    },
+    {
+      lat: 36.4202,
+      lon: 31.47,
+      language: "Hellenic",
+      region: "Anatolia",
+      notes: "Pamphylian",
+    },
     {
       lat: 39.3942,
       lon: 36.3341,
@@ -414,6 +547,55 @@ const markersData = {
     },
   ],
   "400BC": [
+    {
+      lat: 40.0016,
+      lon: 20.4451,
+      language: "Hellenic",
+      region: "Balkans, Italy",
+      notes: "Western Doric",
+    },
+    {
+      lat: 40.4057,
+      lon: 20.5258,
+      language: "Hellenic",
+      region: "Balkans",
+      notes: "Macedonian",
+    },
+    {
+      lat: 39.1311,
+      lon: 22.3411,
+      language: "Hellenic",
+      region: "Balkans, Anatolia",
+      notes: "Aeolic",
+    },
+    {
+      lat: 36.5816,
+      lon: 22.4305,
+      language: "Hellenic",
+      region: "Balkans, Sicilly, Africa",
+      notes: "Doric",
+    },
+    {
+      lat: 38.0412,
+      lon: 24.3103,
+      language: "Hellenic",
+      region: "Balkans, Anatolian, Italy, Gaul, Iberia, Eastern Europe",
+      notes: "Ionic-Attic",
+    },
+    {
+      lat: 37.3118,
+      lon: 21.5711,
+      language: "Hellenic",
+      region: "Balkans, Cyprus",
+      notes: "Arcadocypriot",
+    },
+    {
+      lat: 36.4202,
+      lon: 31.47,
+      language: "Hellenic",
+      region: "Anatolia",
+      notes: "Pamphylian",
+    },
     {
       lat: 39.3942,
       lon: 36.3341,
@@ -570,6 +752,35 @@ const markersData = {
     },
   ],
   "200BC": [
+    {
+      lat: 40.0016,
+      lon: 20.4451,
+      language: "Hellenic",
+      region: "Balkans, Italy",
+      notes: "Western Doric",
+    },
+    {
+      lat: 36.5816,
+      lon: 22.4305,
+      language: "Hellenic",
+      region: "Balkans, Sicilly, Africa",
+      notes: "Doric",
+    },
+    {
+      lat: 38.0412,
+      lon: 24.3103,
+      language: "Hellenic",
+      region:
+        "Balkans, Anatolian, Italy, Gaul, Iberia, Eastern Europe, Middle East, Central Asia",
+      notes: "Koine",
+    },
+    {
+      lat: 37.3118,
+      lon: 21.5711,
+      language: "Hellenic",
+      region: "Balkans",
+      notes: "Arcadocypriot",
+    },
     {
       lat: 39.3942,
       lon: 36.3341,
@@ -748,11 +959,26 @@ const markersData = {
   ],
   "1AD": [
     {
-      lat: 39.3942,
-      lon: 36.3341,
-      language: "Anatolian",
-      region: "Anatolia",
-      notes: "Ancient Cappadocian",
+      lat: 40.0016,
+      lon: 20.4451,
+      language: "Hellenic",
+      region: "Balkans, Italy",
+      notes: "Western Doric",
+    },
+    {
+      lat: 36.5816,
+      lon: 22.4305,
+      language: "Hellenic",
+      region: "Balkans, Sicilly",
+      notes: "Doric",
+    },
+    {
+      lat: 38.0412,
+      lon: 24.3103,
+      language: "Hellenic",
+      region:
+        "Balkans, Anatolian, Italy, Gaul, Eastern Europe, Middle East, Central Asia",
+      notes: "Koine",
     },
     {
       lat: 36.2713,
@@ -883,6 +1109,21 @@ const markersData = {
     },
   ],
   "100AD": [
+    {
+      lat: 36.5816,
+      lon: 22.4305,
+      language: "Hellenic",
+      region: "Balkans, Sicilly",
+      notes: "Doric",
+    },
+    {
+      lat: 38.0412,
+      lon: 24.3103,
+      language: "Hellenic",
+      region:
+        "Balkans, Anatolian, Italy, Gaul, Eastern Europe, Middle East, Central Asia",
+      notes: "Koine",
+    },
     {
       lat: 39.3942,
       lon: 36.3341,
@@ -1020,6 +1261,21 @@ const markersData = {
   ],
   "200AD": [
     {
+      lat: 36.5816,
+      lon: 22.4305,
+      language: "Hellenic",
+      region: "Balkans, Sicilly",
+      notes: "Doric",
+    },
+    {
+      lat: 38.0412,
+      lon: 24.3103,
+      language: "Hellenic",
+      region:
+        "Balkans, Anatolian, Italy, Eastern Europe, Middle East, Central Asia",
+      notes: "Koine",
+    },
+    {
       lat: 39.3942,
       lon: 36.3341,
       language: "Anatolian",
@@ -1156,6 +1412,21 @@ const markersData = {
   ],
   "300AD": [
     {
+      lat: 36.5816,
+      lon: 22.4305,
+      language: "Hellenic",
+      region: "Balkans, Sicilly",
+      notes: "Doric",
+    },
+    {
+      lat: 38.0412,
+      lon: 24.3103,
+      language: "Hellenic",
+      region:
+        "Balkans, Anatolian, Italy, Eastern Europe, Middle East, Central Asia",
+      notes: "Koine",
+    },
+    {
       lat: 39.3942,
       lon: 36.3341,
       language: "Anatolian",
@@ -1277,6 +1548,21 @@ const markersData = {
     },
   ],
   "400AD": [
+    {
+      lat: 36.5816,
+      lon: 22.4305,
+      language: "Hellenic",
+      region: "Balkans, Sicilly",
+      notes: "Doric",
+    },
+    {
+      lat: 38.0412,
+      lon: 24.3103,
+      language: "Hellenic",
+      region:
+        "Balkans, Anatolian, Italy, Eastern Europe, Middle East, Central Asia",
+      notes: "Koine",
+    },
     {
       lat: 39.3942,
       lon: 36.3341,
@@ -1413,6 +1699,20 @@ const markersData = {
     },
   ],
   "500AD": [
+    {
+      lat: 36.5816,
+      lon: 22.4305,
+      language: "Hellenic",
+      region: "Balkans, Sicilly",
+      notes: "Doric",
+    },
+    {
+      lat: 38.0412,
+      lon: 24.3103,
+      language: "Hellenic",
+      region: "Balkans, Anatolian, Italy, Eastern Europe, Middle East",
+      notes: "Koine",
+    },
     {
       lat: 39.3942,
       lon: 36.3341,
@@ -1563,6 +1863,20 @@ const markersData = {
     },
   ],
   "600AD": [
+    {
+      lat: 36.5816,
+      lon: 22.4305,
+      language: "Hellenic",
+      region: "Balkans, Sicilly",
+      notes: "Doric",
+    },
+    {
+      lat: 38.0412,
+      lon: 24.3103,
+      language: "Hellenic",
+      region: "Balkans, Anatolian, Italy, Eastern Europe",
+      notes: "Koine",
+    },
     {
       lat: 39.3942,
       lon: 36.3341,
@@ -1728,6 +2042,20 @@ const markersData = {
   ],
   "700AD": [
     {
+      lat: 36.5816,
+      lon: 22.4305,
+      language: "Hellenic",
+      region: "Balkans, Sicilly",
+      notes: "Doric",
+    },
+    {
+      lat: 38.0412,
+      lon: 24.3103,
+      language: "Hellenic",
+      region: "Balkans, Anatolian, Italy, Eastern Europe",
+      notes: "Koine",
+    },
+    {
       lat: 41.54,
       lon: 12.29,
       language: "Italic",
@@ -1883,6 +2211,20 @@ const markersData = {
     },
   ],
   "800AD": [
+    {
+      lat: 36.5816,
+      lon: 22.4305,
+      language: "Hellenic",
+      region: "Balkans, Sicilly",
+      notes: "Doric",
+    },
+    {
+      lat: 38.0412,
+      lon: 24.3103,
+      language: "Hellenic",
+      region: "Balkans, Anatolian, Italy, Eastern Europe",
+      notes: "Koine",
+    },
     {
       lat: 41.54,
       lon: 12.29,
@@ -2120,6 +2462,8 @@ const languageColorMap = {
   Slavic: "yellow",
   Baltic: "orange",
   Anatolian: "brown",
+  Hellenic: "teal",
+  Uralic: "turquoise",
 };
 
 // Function to create a marker with a custom color based on the language
