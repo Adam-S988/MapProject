@@ -26,10 +26,6 @@ h1 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-body {
-  background-color: blanchedalmond;
-}
-
 #controls {
   margin: 20px;
   text-align: center;
@@ -64,6 +60,13 @@ body {
 
 #timeSlider::-webkit-slider-thumb:hover {
   background-color: #3592cd; /* Change thumb color on hover */
+}
+
+#yearLabel {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #34495e;
+  margin-left: 10px; /* Adds spacing between the label and the year */
 }
 
 /* Legend */
