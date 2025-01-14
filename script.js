@@ -92,13 +92,6 @@ const markersData = {
       notes: "Ancestor to all Celtic languages.",
     },
     {
-      lat: 40.4637,
-      lon: -3.7492,
-      language: "Iberian",
-      region: "Iberian Peninsula",
-      notes: "Iberian languages.",
-    },
-    {
       lat: 53.1,
       lon: 10.2,
       language: "Germanic",
@@ -125,6 +118,34 @@ const markersData = {
       language: "Uralic",
       region: "Eastern Europe",
       notes: "Ancestor of the Finno-Ugric Languages",
+    },
+    {
+      lat: 43.3912,
+      lon: 41.5434,
+      language: "Paleo-European",
+      region: "Eastern Europe",
+      notes: "",
+    },
+    {
+      lat: 40.4637,
+      lon: -3.7492,
+      language: "Paleo-European",
+      region: "Iberian Peninsula, Gaul, Britian, Ireland",
+      notes: "",
+    },
+    {
+      lat: 59.2311,
+      lon: 29.0612,
+      language: "Paleo-European",
+      region: "Baltic Europe",
+      notes: "",
+    },
+    {
+      lat: 42.1829,
+      lon: 12.5507,
+      language: "Paleo-European",
+      region: "Italy",
+      notes: "",
     },
   ],
   "1000BC": [
@@ -192,13 +213,6 @@ const markersData = {
       notes: "Ancestor to all Celtic languages.",
     },
     {
-      lat: 40.4637,
-      lon: -3.7492,
-      language: "Iberian",
-      region: "Iberian Peninsula",
-      notes: "Iberian languages.",
-    },
-    {
       lat: 53.1,
       lon: 10.2,
       language: "Germanic",
@@ -225,6 +239,27 @@ const markersData = {
       language: "Uralic",
       region: "Eastern Europe, Northern Europe",
       notes: "Ancestor of the Finno-Permic Languages",
+    },
+    {
+      lat: 43.3912,
+      lon: 41.5434,
+      language: "Paleo-European",
+      region: "Eastern Europe",
+      notes: "",
+    },
+    {
+      lat: 40.4637,
+      lon: -3.7492,
+      language: "Paleo-European",
+      region: "Iberian Peninsula, Gaul, Britian, Ireland",
+      notes: "",
+    },
+    {
+      lat: 42.1829,
+      lon: 12.5507,
+      language: "Paleo-European",
+      region: "Italy",
+      notes: "",
     },
   ],
   "800BC": [
@@ -348,13 +383,6 @@ const markersData = {
       notes: "Noric",
     },
     {
-      lat: 40.4637,
-      lon: -3.7492,
-      language: "Iberian",
-      region: "Iberian Peninsula",
-      notes: "Iberian languages.",
-    },
-    {
       lat: 53.1,
       lon: 10.2,
       language: "Germanic",
@@ -381,6 +409,27 @@ const markersData = {
       language: "Uralic",
       region: "Eastern Europe, Northern Europe",
       notes: "Ancestor of the Finno-Permic Languages",
+    },
+    {
+      lat: 43.3912,
+      lon: 41.5434,
+      language: "Paleo-European",
+      region: "Eastern Europe",
+      notes: "",
+    },
+    {
+      lat: 40.4637,
+      lon: -3.7492,
+      language: "Paleo-European",
+      region: "Iberian Peninsula, Gaul, Britian, Ireland",
+      notes: "",
+    },
+    {
+      lat: 42.1829,
+      lon: 12.5507,
+      language: "Paleo-European",
+      region: "Italy",
+      notes: "",
     },
   ],
   "600BC": [
@@ -539,13 +588,6 @@ const markersData = {
       notes: "Noric",
     },
     {
-      lat: 42.0855,
-      lon: -7.4438,
-      language: "Iberian",
-      region: "Iberian Peninsula",
-      notes: "Iberian languages.",
-    },
-    {
       lat: 53.1,
       lon: 10.2,
       language: "Germanic",
@@ -572,6 +614,27 @@ const markersData = {
       language: "Uralic",
       region: "Eastern Europe, Northern Europe",
       notes: "Ancestor of the Finno-Permic Languages",
+    },
+    {
+      lat: 43.3912,
+      lon: 41.5434,
+      language: "Paleo-European",
+      region: "Eastern Europe",
+      notes: "",
+    },
+    {
+      lat: 40.4637,
+      lon: -3.7492,
+      language: "Paleo-European",
+      region: "Iberian Peninsula, Gaul, Britian, Ireland",
+      notes: "",
+    },
+    {
+      lat: 43.3613,
+      lon: 10.5103,
+      language: "Paleo-European",
+      region: "Italy",
+      notes: "",
     },
   ],
   "400BC": [
@@ -751,13 +814,6 @@ const markersData = {
       notes: "Noric",
     },
     {
-      lat: 42.0855,
-      lon: -7.4438,
-      language: "Iberian",
-      region: "Iberian Peninsula",
-      notes: "Iberian languages.",
-    },
-    {
       lat: 53.1,
       lon: 10.2,
       language: "Germanic",
@@ -784,6 +840,27 @@ const markersData = {
       language: "Uralic",
       region: "Eastern Europe, Northern Europe",
       notes: "Ancestor of the Finno-Volgaic Languages",
+    },
+    {
+      lat: 43.3912,
+      lon: 41.5434,
+      language: "Paleo-European",
+      region: "Eastern Europe",
+      notes: "",
+    },
+    {
+      lat: 38.0149,
+      lon: -2.3132,
+      language: "Paleo-European",
+      region: "Iberian Peninsula, Britian",
+      notes: "",
+    },
+    {
+      lat: 43.3613,
+      lon: 10.5103,
+      language: "Paleo-European",
+      region: "Italy",
+      notes: "",
     },
   ],
   "200BC": [
@@ -950,13 +1027,6 @@ const markersData = {
       notes: "Noric",
     },
     {
-      lat: 40.4637,
-      lon: -3.7492,
-      language: "Iberian, Celtic",
-      region: "Iberian Peninsula",
-      notes: "Iberian and Celtic languages.",
-    },
-    {
       lat: 53.1,
       lon: 10.2,
       language: "Germanic",
@@ -997,6 +1067,27 @@ const markersData = {
       language: "Uralic",
       region: "Eastern Europe, Northern Europe",
       notes: "Ancestor of the Finno-Volgaic Languages",
+    },
+    {
+      lat: 43.3912,
+      lon: 41.5434,
+      language: "Paleo-European",
+      region: "Eastern Europe",
+      notes: "",
+    },
+    {
+      lat: 38.0149,
+      lon: -2.3132,
+      language: "Paleo-European",
+      region: "Iberian Peninsula, Britian",
+      notes: "",
+    },
+    {
+      lat: 43.3613,
+      lon: 10.5103,
+      language: "Paleo-European",
+      region: "Italy",
+      notes: "",
     },
   ],
   "1AD": [
@@ -1163,6 +1254,27 @@ const markersData = {
       region: "Eastern Europe",
       notes: "Mordvinic",
     },
+    {
+      lat: 43.3912,
+      lon: 41.5434,
+      language: "Paleo-European",
+      region: "Eastern Europe",
+      notes: "",
+    },
+    {
+      lat: 42.3649,
+      lon: -0.595,
+      language: "Paleo-European",
+      region: "Iberian Peninsula, Britian",
+      notes: "",
+    },
+    {
+      lat: 43.3613,
+      lon: 10.5103,
+      language: "Paleo-European",
+      region: "Italy",
+      notes: "",
+    },
   ],
   "100AD": [
     {
@@ -1327,6 +1439,20 @@ const markersData = {
       language: "Uralic",
       region: "Eastern Europe",
       notes: "Mordvinic",
+    },
+    {
+      lat: 43.3912,
+      lon: 41.5434,
+      language: "Paleo-European",
+      region: "Eastern Europe",
+      notes: "",
+    },
+    {
+      lat: 42.3649,
+      lon: -0.595,
+      language: "Paleo-European",
+      region: "Iberian Peninsula, Britian",
+      notes: "",
     },
   ],
   "200AD": [
@@ -1493,6 +1619,20 @@ const markersData = {
       region: "Eastern Europe",
       notes: "Mordvinic",
     },
+    {
+      lat: 43.3912,
+      lon: 41.5434,
+      language: "Paleo-European",
+      region: "Eastern Europe",
+      notes: "",
+    },
+    {
+      lat: 42.3649,
+      lon: -0.595,
+      language: "Paleo-European",
+      region: "Iberian Peninsula, Britian",
+      notes: "",
+    },
   ],
   "300AD": [
     {
@@ -1643,6 +1783,20 @@ const markersData = {
       language: "Uralic",
       region: "Eastern Europe",
       notes: "Mordvinic",
+    },
+    {
+      lat: 43.3912,
+      lon: 41.5434,
+      language: "Paleo-European",
+      region: "Eastern Europe",
+      notes: "",
+    },
+    {
+      lat: 42.3649,
+      lon: -0.595,
+      language: "Paleo-European",
+      region: "Iberian Peninsula, Britian",
+      notes: "",
     },
   ],
   "400AD": [
@@ -1808,6 +1962,20 @@ const markersData = {
       language: "Uralic",
       region: "Eastern Europe",
       notes: "Mordvinic",
+    },
+    {
+      lat: 43.3912,
+      lon: 41.5434,
+      language: "Paleo-European",
+      region: "Eastern Europe",
+      notes: "",
+    },
+    {
+      lat: 42.3649,
+      lon: -0.595,
+      language: "Paleo-European",
+      region: "Iberian Peninsula, Britian",
+      notes: "",
     },
   ],
   "500AD": [
@@ -1993,6 +2161,20 @@ const markersData = {
       language: "Uralic",
       region: "Eastern Europe",
       notes: "Mordvinic",
+    },
+    {
+      lat: 43.3912,
+      lon: 41.5434,
+      language: "Paleo-European",
+      region: "Eastern Europe",
+      notes: "",
+    },
+    {
+      lat: 42.3649,
+      lon: -0.595,
+      language: "Paleo-European",
+      region: "Iberian Peninsula, Britian",
+      notes: "",
     },
   ],
   "600AD": [
@@ -2193,6 +2375,20 @@ const markersData = {
       region: "Eastern Europe",
       notes: "Mordvinic",
     },
+    {
+      lat: 43.3912,
+      lon: 41.5434,
+      language: "Paleo-European",
+      region: "Eastern Europe",
+      notes: "",
+    },
+    {
+      lat: 42.3649,
+      lon: -0.595,
+      language: "Paleo-European",
+      region: "Iberian Peninsula",
+      notes: "",
+    },
   ],
   "700AD": [
     {
@@ -2383,6 +2579,20 @@ const markersData = {
       language: "Uralic",
       region: "Eastern Europe",
       notes: "Mordvinic",
+    },
+    {
+      lat: 43.3912,
+      lon: 41.5434,
+      language: "Paleo-European",
+      region: "Eastern Europe",
+      notes: "",
+    },
+    {
+      lat: 42.3649,
+      lon: -0.595,
+      language: "Paleo-European",
+      region: "Iberian Peninsula",
+      notes: "",
     },
   ],
   "800AD": [
@@ -2666,6 +2876,20 @@ const markersData = {
       region: "Eastern Europe",
       notes: "Mordvinic",
     },
+    {
+      lat: 43.3912,
+      lon: 41.5434,
+      language: "Paleo-European",
+      region: "Eastern Europe",
+      notes: "",
+    },
+    {
+      lat: 42.3649,
+      lon: -0.595,
+      language: "Paleo-European",
+      region: "Iberian Peninsula",
+      notes: "",
+    },
   ],
 };
 
@@ -2681,6 +2905,7 @@ const languageColorMap = {
   Anatolian: "brown",
   Hellenic: "teal",
   Uralic: "turquoise",
+  PaleoEuropean: "grey",
 };
 
 // Function to create a marker with a custom color based on the language
