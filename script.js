@@ -119,6 +119,13 @@ const markersData = {
       region: "Eastern Europe",
       notes: "Ancestor to all Slavic languages.",
     },
+    {
+      lat: 58.5106,
+      lon: 42.3848,
+      language: "Uralic",
+      region: "Eastern Europe",
+      notes: "Ancestor of the Finno-Ugric Languages",
+    },
   ],
   "1000BC": [
     {
@@ -211,6 +218,13 @@ const markersData = {
       language: "Slavic",
       region: "Eastern Europe",
       notes: "Ancestor to all Slavic languages.",
+    },
+    {
+      lat: 58.5106,
+      lon: 34.3848,
+      language: "Uralic",
+      region: "Eastern Europe, Northern Europe",
+      notes: "Ancestor of the Finno-Permic Languages",
     },
   ],
   "800BC": [
@@ -360,6 +374,13 @@ const markersData = {
       language: "Slavic",
       region: "Eastern Europe",
       notes: "Ancestor to all Slavic languages.",
+    },
+    {
+      lat: 58.5106,
+      lon: 34.3848,
+      language: "Uralic",
+      region: "Eastern Europe, Northern Europe",
+      notes: "Ancestor of the Finno-Permic Languages",
     },
   ],
   "600BC": [
@@ -544,6 +565,13 @@ const markersData = {
       language: "Slavic",
       region: "Eastern Europe",
       notes: "Ancestor to all Slavic languages.",
+    },
+    {
+      lat: 58.5106,
+      lon: 34.3848,
+      language: "Uralic",
+      region: "Eastern Europe, Northern Europe",
+      notes: "Ancestor of the Finno-Permic Languages",
     },
   ],
   "400BC": [
@@ -749,6 +777,13 @@ const markersData = {
       language: "Slavic",
       region: "Eastern Europe",
       notes: "Ancestor to all Slavic languages.",
+    },
+    {
+      lat: 58.5106,
+      lon: 34.3848,
+      language: "Uralic",
+      region: "Eastern Europe, Northern Europe",
+      notes: "Ancestor of the Finno-Volgaic Languages",
     },
   ],
   "200BC": [
@@ -956,6 +991,13 @@ const markersData = {
       region: "Baltic Europe",
       notes: "Ancestor to all Baltic languages.",
     },
+    {
+      lat: 58.5106,
+      lon: 34.3848,
+      language: "Uralic",
+      region: "Eastern Europe, Northern Europe",
+      notes: "Ancestor of the Finno-Volgaic Languages",
+    },
   ],
   "1AD": [
     {
@@ -1106,6 +1148,20 @@ const markersData = {
       language: "Baltic",
       region: "Baltic Europe",
       notes: "Ancestor to all Baltic languages.",
+    },
+    {
+      lat: 58.5106,
+      lon: 34.3848,
+      language: "Uralic",
+      region: "Eastern Europe, Northern Europe",
+      notes: "Ancestor of the Balto-Finnic Languages",
+    },
+    {
+      lat: 55.2303,
+      lon: 47.1538,
+      language: "Uralic",
+      region: "Eastern Europe",
+      notes: "Mordvinic",
     },
   ],
   "100AD": [
@@ -1258,6 +1314,20 @@ const markersData = {
       region: "Baltic Europe",
       notes: "Ancestor to all Baltic languages.",
     },
+    {
+      lat: 58.5106,
+      lon: 34.3848,
+      language: "Uralic",
+      region: "Eastern Europe, Northern Europe",
+      notes: "Ancestor of the Balto-Finnic Languages",
+    },
+    {
+      lat: 55.2303,
+      lon: 47.1538,
+      language: "Uralic",
+      region: "Eastern Europe",
+      notes: "Mordvinic",
+    },
   ],
   "200AD": [
     {
@@ -1409,6 +1479,20 @@ const markersData = {
       region: "Baltic Europe",
       notes: "Ancestor to all Baltic languages.",
     },
+    {
+      lat: 58.5106,
+      lon: 34.3848,
+      language: "Uralic",
+      region: "Eastern Europe, Northern Europe",
+      notes: "Ancestor of the Balto-Finnic Languages",
+    },
+    {
+      lat: 55.2303,
+      lon: 47.1538,
+      language: "Uralic",
+      region: "Eastern Europe",
+      notes: "Mordvinic",
+    },
   ],
   "300AD": [
     {
@@ -1545,6 +1629,20 @@ const markersData = {
       language: "Baltic",
       region: "Baltic Europe",
       notes: "Ancestor to all Baltic languages.",
+    },
+    {
+      lat: 58.5106,
+      lon: 34.3848,
+      language: "Uralic",
+      region: "Eastern Europe, Northern Europe",
+      notes: "Ancestor of the Balto-Finnic Languages",
+    },
+    {
+      lat: 55.2303,
+      lon: 47.1538,
+      language: "Uralic",
+      region: "Eastern Europe",
+      notes: "Mordvinic",
     },
   ],
   "400AD": [
@@ -1696,6 +1794,20 @@ const markersData = {
       language: "Baltic",
       region: "Baltic Europe",
       notes: "Ancestor to all Baltic languages.",
+    },
+    {
+      lat: 58.5106,
+      lon: 34.3848,
+      language: "Uralic",
+      region: "Eastern Europe, Northern Europe",
+      notes: "Ancestor of the Balto-Finnic Languages",
+    },
+    {
+      lat: 55.2303,
+      lon: 47.1538,
+      language: "Uralic",
+      region: "Eastern Europe",
+      notes: "Mordvinic",
     },
   ],
   "500AD": [
@@ -1860,6 +1972,27 @@ const markersData = {
       language: "Baltic",
       region: "Baltic Europe",
       notes: "Ancestor to all Baltic languages.",
+    },
+    {
+      lat: 58.5106,
+      lon: 34.3848,
+      language: "Uralic",
+      region: "Eastern Europe, Northern Europe",
+      notes: "Ancestor of the Northern Finnic Languages",
+    },
+    {
+      lat: 57.1918,
+      lon: 28.5447,
+      language: "Uralic",
+      region: "Eastern Europe",
+      notes: "Ancestor of the Southern Finnic Languages",
+    },
+    {
+      lat: 55.2303,
+      lon: 47.1538,
+      language: "Uralic",
+      region: "Eastern Europe",
+      notes: "Mordvinic",
     },
   ],
   "600AD": [
@@ -2039,6 +2172,27 @@ const markersData = {
       region: "Eastern Europe",
       notes: "Dniepr languages.",
     },
+    {
+      lat: 58.5106,
+      lon: 34.3848,
+      language: "Uralic",
+      region: "Eastern Europe, Northern Europe",
+      notes: "Ancestor of the Northern Finnic Languages",
+    },
+    {
+      lat: 57.1918,
+      lon: 28.5447,
+      language: "Uralic",
+      region: "Eastern Europe",
+      notes: "Ancestor of the Southern Finnic Languages",
+    },
+    {
+      lat: 55.2303,
+      lon: 47.1538,
+      language: "Uralic",
+      region: "Eastern Europe",
+      notes: "Mordvinic",
+    },
   ],
   "700AD": [
     {
@@ -2208,6 +2362,27 @@ const markersData = {
       language: "Baltic",
       region: "Eastern Europe",
       notes: "Dniepr languages.",
+    },
+    {
+      lat: 58.5106,
+      lon: 34.3848,
+      language: "Uralic",
+      region: "Eastern Europe, Northern Europe",
+      notes: "Ancestor of the Northern Finnic Languages",
+    },
+    {
+      lat: 57.1918,
+      lon: 28.5447,
+      language: "Uralic",
+      region: "Eastern Europe",
+      notes: "Ancestor of the Southern Finnic Languages",
+    },
+    {
+      lat: 55.2303,
+      lon: 47.1538,
+      language: "Uralic",
+      region: "Eastern Europe",
+      notes: "Mordvinic",
     },
   ],
   "800AD": [
@@ -2448,6 +2623,48 @@ const markersData = {
       language: "Baltic",
       region: "Eastern Europe",
       notes: "Dniepr languages.",
+    },
+    {
+      lat: 60.2943,
+      lon: 24.0434,
+      language: "Uralic",
+      region: "Northern Europe",
+      notes: "Finnish",
+    },
+    {
+      lat: 62.0607,
+      lon: 32.2222,
+      language: "Uralic",
+      region: "Northern Europe",
+      notes: "Karelian",
+    },
+    {
+      lat: 57.1918,
+      lon: 28.5447,
+      language: "Uralic",
+      region: "Eastern Europe",
+      notes: "Estonian",
+    },
+    {
+      lat: 57.0457,
+      lon: 22.3607,
+      language: "Uralic",
+      region: "Eastern Europe",
+      notes: "Livonian",
+    },
+    {
+      lat: 47.0626,
+      lon: 48.2545,
+      language: "Uralic",
+      region: "Eastern Europe",
+      notes: "Hungarian",
+    },
+    {
+      lat: 55.2303,
+      lon: 47.1538,
+      language: "Uralic",
+      region: "Eastern Europe",
+      notes: "Mordvinic",
     },
   ],
 };
