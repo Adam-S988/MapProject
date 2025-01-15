@@ -113,6 +113,13 @@ const markersData = {
       notes: "Ancestor to all Slavic languages.",
     },
     {
+      lat: 41.0734,
+      lon: -2.1728,
+      language: "Lusitanian",
+      region: "Iberia",
+      notes: "",
+    },
+    {
       lat: 58.5106,
       lon: 42.3848,
       language: "Uralic",
@@ -232,6 +239,13 @@ const markersData = {
       language: "Slavic",
       region: "Eastern Europe",
       notes: "Ancestor to all Slavic languages.",
+    },
+    {
+      lat: 40.581,
+      lon: -5.4929,
+      language: "Lusitanian",
+      region: "Iberia",
+      notes: "",
     },
     {
       lat: 58.5106,
@@ -402,6 +416,13 @@ const markersData = {
       language: "Slavic",
       region: "Eastern Europe",
       notes: "Ancestor to all Slavic languages.",
+    },
+    {
+      lat: 40.581,
+      lon: -5.4929,
+      language: "Lusitanian",
+      region: "Iberia",
+      notes: "",
     },
     {
       lat: 58.5106,
@@ -607,6 +628,13 @@ const markersData = {
       language: "Slavic",
       region: "Eastern Europe",
       notes: "Ancestor to all Slavic languages.",
+    },
+    {
+      lat: 40.581,
+      lon: -5.4929,
+      language: "Lusitanian",
+      region: "Iberia",
+      notes: "",
     },
     {
       lat: 58.5106,
@@ -833,6 +861,13 @@ const markersData = {
       language: "Slavic",
       region: "Eastern Europe",
       notes: "Ancestor to all Slavic languages.",
+    },
+    {
+      lat: 40.581,
+      lon: -5.4929,
+      language: "Lusitanian",
+      region: "Iberia",
+      notes: "",
     },
     {
       lat: 58.5106,
@@ -1062,6 +1097,13 @@ const markersData = {
       notes: "Ancestor to all Baltic languages.",
     },
     {
+      lat: 40.581,
+      lon: -5.4929,
+      language: "Lusitanian",
+      region: "Iberia",
+      notes: "",
+    },
+    {
       lat: 58.5106,
       lon: 34.3848,
       language: "Uralic",
@@ -1239,6 +1281,13 @@ const markersData = {
       language: "Baltic",
       region: "Baltic Europe",
       notes: "Ancestor to all Baltic languages.",
+    },
+    {
+      lat: 40.581,
+      lon: -5.4929,
+      language: "Lusitanian",
+      region: "Iberia",
+      notes: "",
     },
     {
       lat: 58.5106,
@@ -1427,6 +1476,13 @@ const markersData = {
       notes: "Ancestor to all Baltic languages.",
     },
     {
+      lat: 40.581,
+      lon: -5.4929,
+      language: "Lusitanian",
+      region: "Iberia",
+      notes: "",
+    },
+    {
       lat: 58.5106,
       lon: 34.3848,
       language: "Uralic",
@@ -1604,6 +1660,13 @@ const markersData = {
       language: "Baltic",
       region: "Baltic Europe",
       notes: "Ancestor to all Baltic languages.",
+    },
+    {
+      lat: 40.581,
+      lon: -5.4929,
+      language: "Lusitanian",
+      region: "Iberia",
+      notes: "",
     },
     {
       lat: 58.5106,
@@ -2902,6 +2965,7 @@ const languageColorMap = {
   Iberian: "purple",
   Slavic: "yellow",
   Baltic: "orange",
+  Lusitanian: "purple",
   Anatolian: "brown",
   Hellenic: "teal",
   Uralic: "turquoise",
