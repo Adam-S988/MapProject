@@ -1,20 +1,22 @@
 // Map slider values to years
 const yearMap = {
-  1: "1500BC",
-  2: "1000BC",
-  3: "800BC",
-  4: "600BC",
-  5: "400BC",
-  6: "200BC",
-  7: "1AD",
-  8: "100AD",
-  9: "200AD",
-  10: "300AD",
-  11: "400AD",
-  12: "500AD",
-  13: "600AD",
-  14: "700AD",
-  15: "800AD",
+  1: "2500BC",
+  2: "2000BC",
+  3: "1500BC",
+  4: "1000BC",
+  5: "800BC",
+  6: "600BC",
+  7: "400BC",
+  8: "200BC",
+  9: "1AD",
+  10: "100AD",
+  11: "200AD",
+  12: "300AD",
+  13: "400AD",
+  14: "500AD",
+  15: "600AD",
+  16: "700AD",
+  17: "800AD",
 };
 
 // Initialize the map
@@ -27,6 +29,178 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 
 // Define markers data for each time period
 const markersData = {
+  "2500BC": [
+    {
+      lat: 58.5106,
+      lon: 42.3848,
+      language: "Uralic",
+      region: "Eastern Europe",
+      notes: "Ancestor of the Finno-Ugric Languages",
+    },
+    {
+      lat: 49.2953,
+      lon: 23.5024,
+      language: "Indo-European",
+      region: "Eastern Europe",
+      notes: "Ancestor to the Balto-Slavic Languages",
+    },
+    {
+      lat: 44.5957,
+      lon: 25.1554,
+      language: "Indo-European",
+      region: "Balkans",
+      notes: "Ancestor to the Balkan Languages",
+    },
+    {
+      lat: 49.5527,
+      lon: 11.2347,
+      language: "Indo-European",
+      region: "Central Europe",
+      notes: "Ancestor to the Germanic and Celt-Italic Languages",
+    },
+    {
+      lat: 38.572,
+      lon: 32.5238,
+      language: "Indo-European",
+      region: "Anatolia",
+      notes: "Ancestor to the Anatolian Languages",
+    },
+    {
+      lat: 43.3912,
+      lon: 41.5434,
+      language: "Paleo-European",
+      region: "Eastern Europe",
+      notes: "",
+    },
+    {
+      lat: 40.4637,
+      lon: -3.7492,
+      language: "Paleo-European",
+      region: "Iberian Peninsula, Gaul, Britian, Ireland",
+      notes: "",
+    },
+    {
+      lat: 59.2311,
+      lon: 29.0612,
+      language: "Paleo-European",
+      region: "Baltic Europe",
+      notes: "",
+    },
+    {
+      lat: 42.1829,
+      lon: 12.5507,
+      language: "Paleo-European",
+      region: "Italy",
+      notes: "",
+    },
+  ],
+  "2000BC": [
+    {
+      lat: 58.5106,
+      lon: 42.3848,
+      language: "Uralic",
+      region: "Eastern Europe",
+      notes: "Ancestor of the Finno-Ugric Languages",
+    },
+    {
+      lat: 49.2953,
+      lon: 23.5024,
+      language: "Indo-European",
+      region: "Eastern Europe",
+      notes: "Ancestor to the Balto-Slavic Languages",
+    },
+    {
+      lat: 43.5823,
+      lon: 16.4219,
+      language: "Indo-European",
+      region: "Balkans",
+      notes: "Ancestor to the Albandoid(?) Languages",
+    },
+    {
+      lat: 44.061,
+      lon: 25.1558,
+      language: "Indo-European",
+      region: "Balkans",
+      notes: "Dacian",
+    },
+    {
+      lat: 40.4148,
+      lon: 20.3912,
+      language: "Hellenic",
+      region: "Balkans",
+      notes: "Ancestor to the Western Greek Languages",
+    },
+    {
+      lat: 38.2857,
+      lon: 22.4806,
+      language: "Hellenic",
+      region: "Balkans",
+      notes: "Ancestor to the Eastern Greek Languages",
+    },
+    {
+      lat: 49.5527,
+      lon: 11.2347,
+      language: "Indo-European",
+      region: "Central Europe",
+      notes: "Ancestor to the Germanic and Celt-Italic Languages",
+    },
+    {
+      lat: 39.3942,
+      lon: 36.3341,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Hittite",
+    },
+    {
+      lat: 39.4201,
+      lon: 27.373,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Proto-Lydian",
+    },
+    {
+      lat: 37.2327,
+      lon: 34.1258,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Luwic",
+    },
+    {
+      lat: 41.03,
+      lon: 31.4927,
+      language: "Anatolian",
+      region: "Anatolia",
+      notes: "Palaic",
+    },
+    {
+      lat: 43.3912,
+      lon: 41.5434,
+      language: "Paleo-European",
+      region: "Eastern Europe",
+      notes: "",
+    },
+    {
+      lat: 40.4637,
+      lon: -3.7492,
+      language: "Paleo-European",
+      region: "Iberian Peninsula, Gaul, Britian, Ireland",
+      notes: "",
+    },
+    {
+      lat: 59.2311,
+      lon: 29.0612,
+      language: "Paleo-European",
+      region: "Baltic Europe",
+      notes: "",
+    },
+    {
+      lat: 42.1829,
+      lon: 12.5507,
+      language: "Paleo-European",
+      region: "Italy",
+      notes: "",
+    },
+  ],
   "1500BC": [
     {
       lat: 40.0016,
@@ -3105,5 +3279,5 @@ playButton.addEventListener("click", () => {
   }
 });
 
-// Initial load for 1500 BC
-loadLanguageData("1500BC");
+// Initial load for 2500 BC
+loadLanguageData("2500BC");
