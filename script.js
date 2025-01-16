@@ -18,7 +18,7 @@ const yearMap = {
 };
 
 // Initialize the map
-const map = L.map("map").setView([50, 10], 4); // Centered on Europe
+const map = L.map("map").setView([50, 25], 4); // Centered on Europe
 
 // Add tile layer to map
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -3007,15 +3007,36 @@ function loadLanguageData(year) {
 }
 
 const languageFamilyDetails = {
-  Hellenic:
-    "The Hellenic languages were primarily spoken in ancient Greece. This family includes Western and Eastern Greek dialects.",
-  Anatolian:
-    "Anatolian languages were spoken in what is now Turkey. Examples include Hittite and Luwian.",
-  Celtic:
-    "Celtic languages spread across Europe, including Gaulish and early forms of Irish.",
-  Germanic:
-    "Germanic languages flourished in Central Europe, Scandinavia, and Britain.",
-  // Add more details as needed
+  Hellenic: `<strong>Languages:</strong> Greek<br>
+  <strong>Geographical Area:</strong> Greece, Cyprus, and parts of the Aegean.<br>
+  <strong>Notes:</strong> The Hellenic language family is centered around Greek, with its history stretching back thousands of years. Ancient Greek was the language of classical philosophy, science, and literature, while modern Greek remains the official language of Greece and Cyprus.`,
+  Anatolian: `<strong>Languages:</strong> Hittite, Luwian, Lydian, Lycian, and others [All extinct]<br>
+  <strong>Geographical Area:</strong> Anatolia (modern-day Turkey)<br>
+  <strong>Notes:</strong> The Anatolian languages are an extinct branch of the Indo-European family, with the Hittite language being the most famous. The Hittites were an ancient civilization in the Near East.`,
+  Celtic: `<strong>Languages:</strong> Irish, Scottish Gaelic, Welsh, Breton, Cornish, Manx<br>
+  <strong>Geographical Area:</strong> Western Europe, particularly the British Isles, France (Brittany), and parts of Spain<br>
+  <strong>Notes:</strong> The Celtic languages are characterized by unique syntactical and phonological features. The ancient Celts were known for their tribal societies, which later contributed to the formation of various European kingdoms.`,
+  Germanic: `<strong>Languages:</strong> English, German, Dutch, Swedish, Danish, Norwegian, Icelandic, and others<br>
+  <strong>Geographical Area:</strong> Northern and Western Europe, especially the UK, Germany, Scandinavia, and the Low Countries<br>
+  <strong>Notes:</strong> The Germanic family is one of the most widely spoken language families globally. English, as a Germanic language, has become a global lingua franca, heavily influenced by Latin and French.`,
+  Italic: `<strong>Languages:</strong> Latin, Italian, Spanish, French, Portuguese, Romanian, and others<br>
+  <strong>Geographical Area:</strong> Southern and Western Europe, the Mediterranean, and parts of Eastern Europe<br>
+  <strong>Notes:</strong> The Italic family includes the Romance languages, which evolved from Vulgar Latin. Latin was the language of the Roman Empire and continues to influence legal, religious, and scientific terms.`,
+  Baltic: `<strong>Languages:</strong> Lithuanian, Latvian<br>
+  <strong>Geographical Area:</strong> The Baltic region, particularly Lithuania and Latvia<br>
+  <strong>Notes:</strong> The Baltic languages are considered one of the oldest and most conservative Indo-European languages. Lithuanian and Latvian retain many archaic features of the Proto-Indo-European language.`,
+  Slavic: `<strong>Languages:</strong> Russian, Polish, Czech, Slovak, Ukrainian, Bulgarian, Serbian, Croatian, and others<br>
+  <strong>Geographical Area:</strong> Eastern Europe, the Balkans, and parts of Central Europe<br>
+  <strong>Notes:</strong> Slavic languages are divided into three subgroups: East Slavic (e.g., Russian), West Slavic (e.g., Polish), and South Slavic (e.g., Bulgarian). They have a rich literary tradition and have been heavily influenced by the Orthodox and Catholic churches.`,
+  Lusitanian: `<strong>Languages:</strong> Ancient Lusitanian [Extinct]<br>
+  <strong>Geographical Area:</strong> Western Iberian Peninsula (modern Portugal and parts of Spain)<br>
+  <strong>Notes:</strong> The Lusitanian language is an extinct language from the Iberian Peninsula, historically spoken by the Lusitanians. It is not fully understood and has left few records.`,
+  Uralic: `<strong>Languages:</strong> Finnish, Hungarian, Estonian, and others<br>
+  <strong>Geographical Area:</strong> Eastern Europe, Northern Europe, and parts of Siberia<br>
+  <strong>Notes:</strong> The Uralic languages are distinct from the Indo-European family, with Finnish and Hungarian being the most well-known. They are spoken by ethnic groups in Finland, Hungary, and across Northern Eurasia.`,
+  PaleoEuropean: `<strong>Languages:</strong> Pre-Indo-European languages<br>
+  <strong>Geographical Area:</strong> Europe, before the spread of Indo-European languages<br>
+  <strong>Notes:</strong> The Paleo-European languages are the prehistoric languages of Europe that were spoken before the arrival of the Indo-European languages. These languages are poorly understood and are mostly lost to history.`,
 };
 
 // Reference to the details box

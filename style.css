@@ -96,6 +96,14 @@ h1 {
   border: 1px solid black;
 }
 
+#languageDetails strong {
+  font-weight: bold;
+}
+
+#languageDetails p {
+  margin-bottom: 10px; /* Optional: Adds spacing between sections */
+}
+
 /* Buttons Inside Legend */
 #legend button {
   display: block; /* Stack buttons */
