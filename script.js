@@ -3006,6 +3006,35 @@ function loadLanguageData(year) {
   });
 }
 
+const languageFamilyDetails = {
+  Hellenic:
+    "The Hellenic languages were primarily spoken in ancient Greece. This family includes Western and Eastern Greek dialects.",
+  Anatolian:
+    "Anatolian languages were spoken in what is now Turkey. Examples include Hittite and Luwian.",
+  Celtic:
+    "Celtic languages spread across Europe, including Gaulish and early forms of Irish.",
+  Germanic:
+    "Germanic languages flourished in Central Europe, Scandinavia, and Britain.",
+  // Add more details as needed
+};
+
+// Reference to the details box
+const detailsBox = document.getElementById("languageDetails");
+
+// Event listener for legend clicks
+document.getElementById("legend").addEventListener("click", (event) => {
+  // Ensure the clicked element is a legend button
+  const button = event.target.closest("button"); // Use closest() to ensure it's a button
+  if (!button) return; // Exit if a button wasn't clicked
+
+  // Get the language family from the button's data attribute
+  const languageFamily = button.getAttribute("data-language-family");
+  if (languageFamily && languageFamilyDetails[languageFamily]) {
+    // Display details in the details box
+    detailsBox.innerHTML = `<h3>${languageFamily}</h3><p>${languageFamilyDetails[languageFamily]}</p>`;
+  }
+});
+
 // Get slider and year label elements
 const slider = document.getElementById("timeSlider");
 const yearLabel = document.getElementById("yearLabel");

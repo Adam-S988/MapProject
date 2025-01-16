@@ -3,7 +3,6 @@ body {
 }
 
 h1 {
-  /* background-color: #9e7c03; */
   text-align: center;
   font-size: 300%;
 }
@@ -59,65 +58,112 @@ h1 {
 }
 
 #timeSlider::-webkit-slider-thumb:hover {
-  background-color: #3592cd; /* Change thumb color on hover */
+  background-color: #3592cd;
 }
 
 #yearLabel {
   font-size: 1.2em;
   font-weight: bold;
   color: #34495e;
-  margin-left: 10px; /* Adds spacing between the label and the year */
+  margin-left: 10px;
 }
 
-/* Legend */
-#Legend {
-  display: flex; /* Allows for easy centering if nested elements are added */
-  justify-content: center; /* Centers the content inside the box */
-  align-items: center; /* Centers the content vertically */
-  margin: 20px auto; /* Centers the box horizontally in its container */
+/* Container for Map and Legend */
+#map-legend-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 20px;
+}
+
+/* Legend Box */
+#legend {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  align-items: center; /* Center-align buttons */
   background-color: hsla(207, 44%, 49%, 0.648); /* Muted blue background */
   border: 1px black solid; /* Black border */
   border-radius: 10px; /* Rounded corners */
   width: 150px; /* Fixed width */
-  padding: 10px; /* Optional: Adds some space inside the box */
-  text-align: center; /* Ensures text inside the box is centered */
+  padding: 10px; /* Add space inside the legend */
 }
 
-#Celtic {
+/* Map Styling */
+#map {
+  flex-grow: 1;
+  height: 500px;
+  border: 1px solid black;
+}
+
+/* Buttons Inside Legend */
+#legend button {
+  display: block; /* Stack buttons */
+  width: 100%; /* Full width of the legend box */
+  padding: 10px; /* Add spacing inside buttons */
+  background: none; /* Remove button background */
+  border: none; /* Remove button border */
+  text-align: center; /* Center-align text */
+  cursor: pointer; /* Pointer cursor on hover */
+  color: inherit; /* Use color from language-specific styles */
+  font-size: 1rem; /* Adjust font size if needed */
+  transition: transform 0.3s ease; /* Smooth transform effect */
+}
+
+/* Buttons Hover Effect */
+#legend button:hover {
+  font-weight: bold;
+  transform: scale(1.1);
+}
+
+/* Language Details Box */
+#languageDetails {
+  width: 80%;
+  background-color: hsla(207, 44%, 40%, 0.8);
+  border: 1px black solid;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: left;
+  margin: 20px auto;
+}
+
+/* Individual Language Colors */
+#legend #Celtic {
   color: green;
 }
 
-#Germanic {
+#legend #Germanic {
   color: red;
 }
 
-#Italic {
+#legend #Italic {
   color: blue;
 }
 
-#Baltic {
+#legend #Baltic {
   color: orange;
 }
-#Slavic {
+
+#legend #Slavic {
   color: yellow;
 }
 
-#Anatolian {
+#legend #Anatolian {
   color: brown;
 }
 
-#Hellenic {
-  color: Teal;
+#legend #Hellenic {
+  color: teal;
 }
 
-#Uralic {
+#legend #Uralic {
   color: turquoise;
 }
 
-#PaleoEuropean {
+#legend #PaleoEuropean {
   color: grey;
 }
 
-#Lusitanian {
+#legend #Lusitanian {
   color: purple;
 }
