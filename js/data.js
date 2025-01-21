@@ -1,5 +1,5 @@
 // Map slider values to years
-const yearMap = {
+export const yearMap = {
   1: "2500BC",
   2: "2000BC",
   3: "1500BC",
@@ -19,16 +19,8 @@ const yearMap = {
   17: "800AD",
 };
 
-// Initialize the map
-const map = L.map("map").setView([50, 25], 4); // Centered on Europe
-
-// Add tile layer to map
-L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-  attribution: "&copy; OpenStreetMap contributors",
-}).addTo(map);
-
 // Define markers data for each time period
-const markersData = {
+export const markersData = {
   "2500BC": [
     {
       lat: 58.5106,
@@ -3128,10 +3120,11 @@ const markersData = {
       notes: "",
     },
   ],
+  // Add more years and marker data here
 };
 
 // Map of language to color
-const languageColorMap = {
+export const languageColorMap = {
   Latin: "blue",
   Italic: "blue",
   Celtic: "green",
@@ -3146,41 +3139,13 @@ const languageColorMap = {
   PaleoEuropean: "grey",
 };
 
-// Function to create a marker with a custom color based on the language
-function getLanguageMarkerColor(language) {
-  return languageColorMap[language] || "gray"; // Default to gray if the language is not in the map
+// Function to get marker color based on language
+export function getLanguageMarkerColor(language) {
+  return languageColorMap[language] || "gray"; // Default to gray if not in map
 }
 
-// Function to load language data and display markers with different colors
-function loadLanguageData(year) {
-  // Clear any existing markers on the map
-  map.eachLayer((layer) => {
-    if (layer instanceof L.Marker || layer instanceof L.CircleMarker) {
-      map.removeLayer(layer); // Remove all markers (both L.Marker and L.CircleMarker)
-    }
-  });
-
-  // Load markers for the selected year
-  const markers = markersData[year]; // Get the markers for the selected year
-
-  markers.forEach((marker) => {
-    const markerColor = getLanguageMarkerColor(marker.language); // Get the color based on the language
-
-    // Create a circle marker with the color based on the language
-    L.circleMarker([marker.lat, marker.lon], {
-      color: markerColor,
-      fillColor: markerColor,
-      fillOpacity: 0.5,
-      radius: 8, // Size of the marker
-    })
-      .addTo(map)
-      .bindPopup(
-        `<b>${marker.language}</b><br>${marker.region}<br>${marker.notes}`
-      );
-  });
-}
-
-const languageFamilyDetails = {
+// Language family details
+export const languageFamilyDetails = {
   Hellenic: `<strong>Languages:</strong> Greek<br>
   <strong>Geographical Area:</strong> Greece, Cyprus, and parts of the Aegean.<br>
   <strong>Extinct Languages:</strong> Mycenaean Greek, Ancient Greek (Classical, Koine).<br>
@@ -3252,72 +3217,3 @@ const languageFamilyDetails = {
   Paleo-European languages are pre-Indo-European languages once spoken across Europe. Etruscan, spoken in ancient Italy, was a sophisticated language tied to the early Roman Republic. Basque, spoken in Spain and France, is a linguistic isolate and possibly the last remnant of these ancient languages.<br>
   <strong>Notes:</strong> The Paleo-European languages are the prehistoric languages of Europe that were spoken before the arrival of the Indo-European languages. These languages are poorly understood and are mostly lost to history.`,
 };
-
-// Reference to the details box
-const detailsBox = document.getElementById("languageDetails");
-
-// Event listener for legend clicks
-document.getElementById("legend").addEventListener("click", (event) => {
-  // Ensure the clicked element is a legend button
-  const button = event.target.closest("button"); // Use closest() to ensure it's a button
-  if (!button) return; // Exit if a button wasn't clicked
-
-  // Get the language family from the button's data attribute
-  const languageFamily = button.getAttribute("data-language-family");
-  if (languageFamily && languageFamilyDetails[languageFamily]) {
-    // Display details in the details box
-    detailsBox.innerHTML = `<h3>${languageFamily}</h3><p>${languageFamilyDetails[languageFamily]}</p>`;
-  }
-});
-
-// Get slider and year label elements
-const slider = document.getElementById("timeSlider");
-const yearLabel = document.getElementById("yearLabel");
-const playButton = document.getElementById("playButton");
-
-let intervalId; // To store the interval ID
-let isPlaying = false; // To track if the play button is active
-
-// Set the slider's max value to 5 to match the years in yearMap
-slider.max = 17;
-
-// Event listener for the slider input
-slider.addEventListener("input", (event) => {
-  const yearKey = yearMap[event.target.value];
-  yearLabel.textContent = yearKey.replace("BC", " BC").replace("AD", " AD");
-  loadLanguageData(yearKey); // Load the markers for the selected year
-});
-
-// Event listener for the Play button
-playButton.addEventListener("click", () => {
-  if (isPlaying) {
-    clearInterval(intervalId); // Stop the interval if it's running
-    playButton.textContent = "Play"; // Change button text back to "Play"
-    isPlaying = false;
-  } else {
-    isPlaying = true;
-    playButton.textContent = "Pause"; // Change button text to "Pause"
-
-    let currentValue = parseInt(slider.value); // Get the current slider value
-    const maxValue = parseInt(slider.max); // Get the maximum slider value
-
-    intervalId = setInterval(() => {
-      if (currentValue <= maxValue) {
-        const yearKey = yearMap[currentValue];
-        yearLabel.textContent = yearKey
-          .replace("BC", " BC")
-          .replace("AD", " AD");
-        loadLanguageData(yearKey); // Load the markers for the current year
-        slider.value = currentValue; // Update the slider to match
-        currentValue += 1; // Move to the next year
-      } else {
-        clearInterval(intervalId); // Stop the interval when the max is reached
-        playButton.textContent = "Play"; // Reset the button text
-        isPlaying = false;
-      }
-    }, 2000); // Change year every 2 seconds (adjust as needed)
-  }
-});
-
-// Initial load for 2500 BC
-loadLanguageData("2500BC");
