@@ -19,6 +19,11 @@ export const yearMap = {
   17: "800AD",
   18: "900AD",
   19: "1000AD",
+  20: "1100AD",
+  21: "1200AD",
+  22: "1300AD",
+  23: "1400AD",
+  24: "1500AD",
 };
 
 // Define markers data for each time period
@@ -3826,6 +3831,366 @@ export const markersData = {
       notes: "",
     },
   ],
+  "1100AD": [
+    {
+      lat: 40.28,
+      lon: 17.4945,
+      language: "Hellenic",
+      region: "Balkans, Sicilly",
+      notes: "Italiot Greek",
+    },
+    {
+      lat: 37.1922,
+      lon: 22.402,
+      language: "Hellenic",
+      region: "Balkans, Sicilly",
+      notes: "Tsakonian",
+    },
+    {
+      lat: 38.0954,
+      lon: 26.3712,
+      language: "Hellenic",
+      region: "Balkans, Anatolia, Eastern Europe",
+      notes: "Medieval Greek",
+    },
+    {
+      lat: 53.4439,
+      lon: -8.1054,
+      language: "Celtic",
+      region: "Ireland",
+      notes: "Irish",
+    },
+    {
+      lat: 48.0833,
+      lon: -3.3056,
+      language: "Celtic",
+      region: "Brittany",
+      notes: "Breton",
+    },
+    {
+      lat: 50.4829,
+      lon: -3.4531,
+      language: "Celtic",
+      region: "Cornwall",
+      notes: "Cornish",
+    },
+    {
+      lat: 52.3511,
+      lon: -3.2041,
+      language: "Celtic",
+      region: "Wales",
+      notes: "Welsh",
+    },
+    {
+      lat: 55.0338,
+      lon: -3.4716,
+      language: "Celtic",
+      region: "Crumbria",
+      notes: "Cumbric",
+    },
+    {
+      lat: 56.9523,
+      lon: -5.295,
+      language: "Celtic",
+      region: "North Britian",
+      notes: "Scottish Gaelic",
+    },
+    {
+      lat: 54.1359,
+      lon: -4.3508,
+      language: "Celtic",
+      region: "Mann",
+      notes: "Manx",
+    },
+  ],
+  "1200AD": [
+    {
+      lat: 40.28,
+      lon: 17.4945,
+      language: "Hellenic",
+      region: "Balkans, Sicilly",
+      notes: "Italiot Greek",
+    },
+    {
+      lat: 37.1922,
+      lon: 22.402,
+      language: "Hellenic",
+      region: "Balkans, Sicilly",
+      notes: "Tsakonian",
+    },
+    {
+      lat: 38.0954,
+      lon: 26.3712,
+      language: "Hellenic",
+      region: "Balkans, Anatolia, Eastern Europe",
+      notes: "Medieval Greek",
+    },
+    {
+      lat: 53.4439,
+      lon: -8.1054,
+      language: "Celtic",
+      region: "Ireland",
+      notes: "Irish",
+    },
+    {
+      lat: 48.0833,
+      lon: -3.3056,
+      language: "Celtic",
+      region: "Brittany",
+      notes: "Breton",
+    },
+    {
+      lat: 50.4829,
+      lon: -3.4531,
+      language: "Celtic",
+      region: "Cornwall",
+      notes: "Cornish",
+    },
+    {
+      lat: 52.3511,
+      lon: -3.2041,
+      language: "Celtic",
+      region: "Wales",
+      notes: "Welsh",
+    },
+    {
+      lat: 56.9523,
+      lon: -5.295,
+      language: "Celtic",
+      region: "North Britian",
+      notes: "Scottish Gaelic",
+    },
+    {
+      lat: 54.1359,
+      lon: -4.3508,
+      language: "Celtic",
+      region: "Mann",
+      notes: "Manx",
+    },
+  ],
+  "1300AD": [
+    {
+      lat: 40.28,
+      lon: 17.4945,
+      language: "Hellenic",
+      region: "Balkans, Sicilly",
+      notes: "Italiot Greek",
+    },
+    {
+      lat: 37.1922,
+      lon: 22.402,
+      language: "Hellenic",
+      region: "Balkans, Sicilly",
+      notes: "Tsakonian",
+    },
+    {
+      lat: 38.0954,
+      lon: 26.3712,
+      language: "Hellenic",
+      region: "Balkans, Anatolia, Eastern Europe",
+      notes: "Medieval Greek",
+    },
+    {
+      lat: 53.4439,
+      lon: -8.1054,
+      language: "Celtic",
+      region: "Ireland",
+      notes: "Irish",
+    },
+    {
+      lat: 48.0833,
+      lon: -3.3056,
+      language: "Celtic",
+      region: "Brittany",
+      notes: "Breton",
+    },
+    {
+      lat: 50.4829,
+      lon: -3.4531,
+      language: "Celtic",
+      region: "Cornwall",
+      notes: "Cornish",
+    },
+    {
+      lat: 52.3511,
+      lon: -3.2041,
+      language: "Celtic",
+      region: "Wales",
+      notes: "Welsh",
+    },
+    {
+      lat: 56.9523,
+      lon: -5.295,
+      language: "Celtic",
+      region: "North Britian",
+      notes: "Scottish Gaelic",
+    },
+    {
+      lat: 54.1359,
+      lon: -4.3508,
+      language: "Celtic",
+      region: "Mann",
+      notes: "Manx",
+    },
+  ],
+  "1400AD": [
+    {
+      lat: 40.28,
+      lon: 17.4945,
+      language: "Hellenic",
+      region: "Balkans, Sicilly",
+      notes: "Italiot Greek",
+    },
+    {
+      lat: 37.1922,
+      lon: 22.402,
+      language: "Hellenic",
+      region: "Balkans, Sicilly",
+      notes: "Tsakonian",
+    },
+    {
+      lat: 38.0954,
+      lon: 26.3712,
+      language: "Hellenic",
+      region: "Balkans, Anatolia, Eastern Europe",
+      notes: "Medieval Greek",
+    },
+    {
+      lat: 34.5739,
+      lon: 32.532,
+      language: "Hellenic",
+      region: "Cyrpus",
+      notes: "Cypriot",
+    },
+    {
+      lat: 45.0814,
+      lon: 36.0036,
+      language: "Hellenic",
+      region: "Anatolia, Eastern Europe",
+      notes: "Pontic Greek",
+    },
+    {
+      lat: 53.4439,
+      lon: -8.1054,
+      language: "Celtic",
+      region: "Ireland",
+      notes: "Irish",
+    },
+    {
+      lat: 48.0833,
+      lon: -3.3056,
+      language: "Celtic",
+      region: "Brittany",
+      notes: "Breton",
+    },
+    {
+      lat: 50.4829,
+      lon: -3.4531,
+      language: "Celtic",
+      region: "Cornwall",
+      notes: "Cornish",
+    },
+    {
+      lat: 52.3511,
+      lon: -3.2041,
+      language: "Celtic",
+      region: "Wales",
+      notes: "Welsh",
+    },
+    {
+      lat: 56.9523,
+      lon: -5.295,
+      language: "Celtic",
+      region: "North Britian",
+      notes: "Scottish Gaelic",
+    },
+    {
+      lat: 54.1359,
+      lon: -4.3508,
+      language: "Celtic",
+      region: "Mann",
+      notes: "Manx",
+    },
+  ],
+  "1500AD": [
+    {
+      lat: 40.28,
+      lon: 17.4945,
+      language: "Hellenic",
+      region: "Balkans, Sicilly",
+      notes: "Italiot Greek",
+    },
+    {
+      lat: 37.1922,
+      lon: 22.402,
+      language: "Hellenic",
+      region: "Balkans, Sicilly",
+      notes: "Tsakonian",
+    },
+    {
+      lat: 38.0954,
+      lon: 26.3712,
+      language: "Hellenic",
+      region: "Balkans, Anatolia, Eastern Europe",
+      notes: "Medieval Greek",
+    },
+    {
+      lat: 34.5739,
+      lon: 32.532,
+      language: "Hellenic",
+      region: "Cyrpus",
+      notes: "Cypriot",
+    },
+    {
+      lat: 45.0814,
+      lon: 36.0036,
+      language: "Hellenic",
+      region: "Anatolia, Eastern Europe",
+      notes: "Pontic Greek",
+    },
+    {
+      lat: 53.4439,
+      lon: -8.1054,
+      language: "Celtic",
+      region: "Ireland",
+      notes: "Irish",
+    },
+    {
+      lat: 48.0833,
+      lon: -3.3056,
+      language: "Celtic",
+      region: "Brittany",
+      notes: "Breton",
+    },
+    {
+      lat: 50.4829,
+      lon: -3.4531,
+      language: "Celtic",
+      region: "Cornwall",
+      notes: "Cornish",
+    },
+    {
+      lat: 52.3511,
+      lon: -3.2041,
+      language: "Celtic",
+      region: "Wales",
+      notes: "Welsh",
+    },
+    {
+      lat: 56.9523,
+      lon: -5.295,
+      language: "Celtic",
+      region: "North Britian",
+      notes: "Scottish Gaelic",
+    },
+    {
+      lat: 54.1359,
+      lon: -4.3508,
+      language: "Celtic",
+      region: "Mann",
+      notes: "Manx",
+    },
+  ],
   // Add more years and marker data here
 };
 
@@ -3860,6 +4225,7 @@ export const languageFamilyDetails = {
   <strong>Historical Context:</strong>
   The Hellenic family, dominated by Greek, has a documented history spanning over 3,500 years. Mycenaean Greek was used in the early Greek city-states. Ancient Greek developed into Classical and Koine forms, the latter serving as a lingua franca in the Hellenistic world. Modern Greek retains ties to its ancient predecessors.<br>
   <strong>Notes:</strong> The Hellenic language family is centered around Greek, with its history stretching back thousands of years. Ancient Greek was the language of classical philosophy, science, and literature, while modern Greek remains the official language of Greece and Cyprus.`,
+
   Anatolian: `<strong>Languages:</strong> Hittite, Luwian, Lydian, Lycian, and others [All extinct]<br>
   <strong>Geographical Area:</strong> Anatolia (modern-day Turkey)<br>
   <strong>Extinct Languages:</strong> Hittite, Luwian, Lycian, Lydian.<br>
@@ -3868,6 +4234,7 @@ export const languageFamilyDetails = {
   <strong>Historical Context:</strong>
   Anatolian languages were spoken in ancient Turkey and were among the first written Indo-European languages, with records dating back to the 2nd millennium BCE. The Hittite Empire was a major power in the ancient Near East. Anatolian languages disappeared around the 1st millennium BCE, replaced by Greek and other languages.<br>
   <strong>Notes:</strong> The Anatolian languages are an extinct branch of the Indo-European family, with the Hittite language being the most famous. The Hittites were an ancient civilization in the Near East.`,
+
   Celtic: `<strong>Languages:</strong> Irish, Scottish Gaelic, Welsh, Breton, Cornish, Manx<br>
   <strong>Geographical Area:</strong> Western Europe, particularly the British Isles, France (Brittany), and parts of Spain<br>
   <strong>Extinct Languages:</strong> Gaulish, Lepontic, Celtiberian, Pictish.<br>
@@ -3876,14 +4243,17 @@ export const languageFamilyDetails = {
   <strong>Historical Context:</strong>
   The Celtic language family once spread widely across Europe, from Iberia to Anatolia. It fragmented after Roman conquest and Germanic invasions. Today, Celtic languages are mainly confined to the British Isles and Brittany, France. Revival efforts in Cornwall and the Isle of Man have brought renewed interest in these languages.<br>
   <strong>Notes:</strong> The Celtic languages are characterized by unique syntactical and phonological features. The ancient Celts were known for their tribal societies, which later contributed to the formation of various European kingdoms.`,
-  Germanic: `<strong>Languages:</strong> English, German, Dutch, Swedish, Danish, Norwegian, Icelandic, and others<br>
-  <strong>Geographical Area:</strong> Northern and Western Europe, especially the UK, Germany, Scandinavia, and the Low Countries<br>
+
+  Germanic: `<strong>Languages:</strong> English, German, Dutch, Swedish, Danish, Norwegian, Icelandic, Afrikaans, Faroese, and others<br>
+  <strong>Geographical Area:</strong> Originally Northern and Western Europe (UK, Germany, Scandinavia, the Low Countries). Today, Germanic languages are spoken worldwide, especially in North America, Oceania, and parts of Africa.<br>
   <strong>Extinct Languages:</strong> Gothic, Vandalic, Burgundian.<br>
-  <strong>Endangered Languages:</strong> Yiddish (partially), Scots (debated), Low German.<br>
-  <strong>Emergence</strong>: ~500 BCE-200 CE <br>
+  <strong>Endangered Languages:</strong> Yiddish (thriving in some communities but declining overall), Scots (debated), Low German (Plattdeutsch, used mainly by older generations).<br>
+  <strong>Emergence:</strong> Proto-Germanic developed around ~500 BCE, with distinct branches (East, North, West) forming by 0–500 CE.<br>
   <strong>Historical Context:</strong>
-  Originating from Proto-Germanic, the family split into East, North, and West Germanic branches. East Germanic languages, like Gothic, are extinct. Modern Germanic languages include some of the world's most spoken, such as English and German. Historically, Germanic tribes shaped medieval Europe after the fall of the Roman Empire.<br>
-  <strong>Notes:</strong> The Germanic family is one of the most widely spoken language families globally. English, as a Germanic language, has become a global lingua franca, heavily influenced by Latin and French.`,
+  The Germanic language family originated from Proto-Germanic, which evolved into three branches: East, North, and West Germanic. East Germanic, including Gothic, is extinct. The North Germanic branch gave rise to Scandinavian languages, while West Germanic developed into English, German, and Dutch. After the fall of the Roman Empire, Germanic-speaking groups, including the Franks, Saxons, and Vikings, played a crucial role in shaping medieval Europe.<br>
+  <strong>Characteristics:</strong> Grimm's Law (sound shifts from Proto-Indo-European), stress on the first syllable, Germanic Umlaut, a large vowel inventory, verb-second word order (in many Germanic languages), weak verbs, strong/weak adjective distinction, rhotacism (*s* → *r* shift), use of auxiliary verbs.<br>
+  <strong>Notes:</strong> The Germanic family is one of the most widely spoken language families today. English, as a Germanic language, has become the world’s dominant lingua franca, heavily influenced by Latin, French, and Norse. German remains the most spoken native language in Europe, while Scandinavian languages preserve many archaic Germanic features.`,
+
   Italic: `<strong>Languages:</strong> Latin, Italian, Spanish, French, Portuguese, Romanian, and others<br>
   <strong>Geographical Area:</strong> Southern and Western Europe, the Mediterranean, and parts of Eastern Europe<br>
   <strong>Extinct Languages:</strong> Latin (Classical and Vulgar), Oscan, Umbrian, Faliscan.<br>
@@ -3892,6 +4262,7 @@ export const languageFamilyDetails = {
   <strong>Historical Context:</strong>
   The Italic family dominated the Italian Peninsula and was crucial for the rise of the Roman Empire. Latin evolved into the Romance languages, such as Italian, Spanish, and French. While Latin is no longer spoken natively, it remains influential as the language of science, law, and the Catholic Church.<br>
   <strong>Notes:</strong> The Italic family includes the Romance languages, which evolved from Vulgar Latin. Latin was the language of the Roman Empire and continues to influence legal, religious, and scientific terms.`,
+
   Baltic: `<strong>Languages:</strong> Lithuanian, Latvian<br>
   <strong>Geographical Area:</strong> The Baltic region, particularly Lithuania and Latvia<br>
   <strong>Extinct Languages:</strong> Old Prussian, Curonian, Selonian, Semigallian.<br>
@@ -3900,6 +4271,7 @@ export const languageFamilyDetails = {
   <Strong>Historical Context:</strong>
   Baltic languages were historically spoken over a much larger area in Eastern Europe but diminished due to Slavic expansion. Old Prussian, once spoken in modern-day Poland, became extinct in the 17th century. Lithuanian, the most conservative Indo-European language, retains many ancient features.<br>
   <strong>Notes:</strong> The Baltic languages are considered one of the oldest and most conservative Indo-European languages. Lithuanian and Latvian retain many archaic features of the Proto-Indo-European language.`,
+
   Slavic: `<strong>Languages:</strong> Russian, Polish, Czech, Slovak, Ukrainian, Bulgarian, Serbian, Croatian, and others<br>
   <strong>Geographical Area:</strong> Eastern Europe, the Balkans, and parts of Central Europe<br>
   <strong>Extinct Languages:</strong> Polabian, Old Church Slavonic (as a vernacular).<br>
@@ -3908,6 +4280,7 @@ export const languageFamilyDetails = {
   <strong>Historical Context:</strong>
   Slavic languages developed from Proto-Slavic and expanded widely through migrations. They are divided into East, West, and South Slavic branches. Historically, Old Church Slavonic was the liturgical language of the Orthodox Church and helped preserve early Slavic texts.<br>
   <strong>Notes:</strong> Slavic languages are divided into three subgroups: East Slavic (e.g., Russian), West Slavic (e.g., Polish), and South Slavic (e.g., Bulgarian). They have a rich literary tradition and have been heavily influenced by the Orthodox and Catholic churches.`,
+
   Lusitanian: `<strong>Languages:</strong> Ancient Lusitanian [Extinct]<br>
   <strong>Geographical Area:</strong> Western Iberian Peninsula (modern Portugal and parts of Spain)<br>
   <strong>Extinct Languages:</strong> Lusitanian (the only known language of the family).<br>
@@ -3916,6 +4289,7 @@ export const languageFamilyDetails = {
   <strong>Historical Context:</strong>
   Lusitanian was spoken in parts of modern Portugal and western Spain during the Iron Age. Its classification is debated, as some linguists consider it a pre-Indo-European isolate. Little is known about its grammar and vocabulary due to limited inscriptions.<br>
   <strong>Notes:</strong> The Lusitanian language is an extinct language from the Iberian Peninsula, historically spoken by the Lusitanians. It is not fully understood and has left few records.`,
+
   Uralic: `<strong>Languages:</strong> Finnish, Hungarian, Estonian, and others<br>
   <strong>Geographical Area:</strong> Eastern Europe, Northern Europe, and parts of Siberia<br>
   <strong>Extinct Languages:</strong> Kamassian, Merya, Muromian.<br>
@@ -3924,6 +4298,7 @@ export const languageFamilyDetails = {
   <strong>Historical Context:</strong>
   Uralic languages originated in the Ural Mountains and spread across northern Eurasia. They include Finno-Ugric and Samoyedic branches. Some, like Finnish and Hungarian, are vibrant, while others face extinction due to assimilation and declining populations. Livonian, for example, is critically endangered.<br>
   <strong>Notes:</strong> The Uralic languages are distinct from the Indo-European family, with Finnish and Hungarian being the most well-known. They are spoken by ethnic groups in Finland, Hungary, and across Northern Eurasia.`,
+
   PaleoEuropean: `<strong>Languages:</strong> Pre-Indo-European languages<br>
   <strong>Geographical Area:</strong> Europe, before the spread of Indo-European languages<br>
   <strong>Extinct Languages:</strong> Aquitanian, Tartessian, Etruscan.<br>
