@@ -65,6 +65,13 @@ export const markersData = {
       notes: "Ancestor to the Anatolian Languages",
     },
     {
+      lat: 51.0525,
+      lon: 0.1801,
+      language: "Paleo-European",
+      region: "Britain",
+      notes: "",
+    },
+    {
       lat: 43.3912,
       lon: 41.5434,
       language: "Paleo-European",
@@ -172,6 +179,13 @@ export const markersData = {
       notes: "Palaic",
     },
     {
+      lat: 54.0643,
+      lon: -1.4328,
+      language: "Paleo-European",
+      region: "Britain, Ireland",
+      notes: "",
+    },
+    {
       lat: 43.3912,
       lon: 41.5434,
       language: "Paleo-European",
@@ -276,7 +290,14 @@ export const markersData = {
       lon: 5.5302,
       language: "Celtic",
       region: "Gaul",
-      notes: "Ancestor to all Celtic languages.",
+      notes: "Ancestor to most Celtic languages.",
+    },
+    {
+      lat: 51.4828,
+      lon: 0.3334,
+      language: "Celtic",
+      region: "Britain",
+      notes: "",
     },
     {
       lat: 53.1,
@@ -312,6 +333,13 @@ export const markersData = {
       language: "Uralic",
       region: "Eastern Europe",
       notes: "Ancestor of the Finno-Ugric Languages",
+    },
+    {
+      lat: 54.0643,
+      lon: -1.4328,
+      language: "Paleo-European",
+      region: "Britain, Ireland",
+      notes: "",
     },
     {
       lat: 43.3912,
@@ -418,7 +446,14 @@ export const markersData = {
       lon: 3.5302,
       language: "Celtic",
       region: "Gaul",
-      notes: "Ancestor to all Celtic languages.",
+      notes: "Ancestor to most Celtic languages.",
+    },
+    {
+      lat: 52.1055,
+      lon: -1.0346,
+      language: "Celtic",
+      region: "Britain",
+      notes: "",
     },
     {
       lat: 53.1,
@@ -454,6 +489,13 @@ export const markersData = {
       language: "Uralic",
       region: "Eastern Europe, Northern Europe",
       notes: "Ancestor of the Finno-Permic Languages",
+    },
+    {
+      lat: 54.0643,
+      lon: -1.4328,
+      language: "Paleo-European",
+      region: "Britain, Ireland",
+      notes: "",
     },
     {
       lat: 43.3912,
@@ -584,8 +626,8 @@ export const markersData = {
       notes: "Italic languages",
     },
     {
-      lat: 50.5843,
-      lon: 0.2126,
+      lat: 52.1055,
+      lon: -1.0346,
       language: "Celtic",
       region: "Britian, Ireland, Gaul, Iberia",
       notes: "Ancestor to Insular Celtic languages.",
@@ -645,6 +687,13 @@ export const markersData = {
       language: "Uralic",
       region: "Eastern Europe, Northern Europe",
       notes: "Ancestor of the Finno-Permic Languages",
+    },
+    {
+      lat: 54.0643,
+      lon: -1.4328,
+      language: "Paleo-European",
+      region: "Britain, Ireland",
+      notes: "",
     },
     {
       lat: 43.3912,
@@ -878,6 +927,13 @@ export const markersData = {
       language: "Uralic",
       region: "Eastern Europe, Northern Europe",
       notes: "Ancestor of the Finno-Permic Languages",
+    },
+    {
+      lat: 56.5659,
+      lon: -3.4902,
+      language: "Paleo-European",
+      region: "Britain",
+      notes: "",
     },
     {
       lat: 43.3912,
@@ -1134,6 +1190,13 @@ export const markersData = {
       notes: "Ancestor of the Finno-Volgaic Languages",
     },
     {
+      lat: 56.5659,
+      lon: -3.4902,
+      language: "Paleo-European",
+      region: "Britain",
+      notes: "",
+    },
+    {
       lat: 43.3912,
       lon: 41.5434,
       language: "Paleo-European",
@@ -1380,6 +1443,13 @@ export const markersData = {
       language: "Uralic",
       region: "Eastern Europe, Northern Europe",
       notes: "Ancestor of the Finno-Volgaic Languages",
+    },
+    {
+      lat: 56.5659,
+      lon: -3.4902,
+      language: "Paleo-European",
+      region: "Britain",
+      notes: "",
     },
     {
       lat: 43.3912,
@@ -2098,11 +2168,18 @@ export const markersData = {
       notes: "Old Norse",
     },
     {
-      lat: 52.4125,
-      lon: -1.2001,
+      lat: 53.0409,
+      lon: -1.0835,
       language: "Celtic",
       region: "Britian",
-      notes: "Common Brythonic languages.",
+      notes: "Western Brittonic",
+    },
+    {
+      lat: 50.5219,
+      lon: -3.3417,
+      language: "Celtic",
+      region: "Britian",
+      notes: "Southwestern Brittonic",
     },
     {
       lat: 56.474,
@@ -2284,11 +2361,18 @@ export const markersData = {
       notes: "Old Norse",
     },
     {
-      lat: 52.4125,
-      lon: -1.2001,
+      lat: 53.0409,
+      lon: -1.0835,
       language: "Celtic",
       region: "Britian",
-      notes: "Common Brythonic languages.",
+      notes: "Western Brittonic",
+    },
+    {
+      lat: 50.5219,
+      lon: -3.3417,
+      language: "Celtic",
+      region: "Britian",
+      notes: "Southwestern Brittonic",
     },
     {
       lat: 56.474,
@@ -2469,6 +2553,13 @@ export const markersData = {
       notes: "North Sea Germanic Lanuages",
     },
     {
+      lat: 52.2146,
+      lon: 0.5715,
+      language: "Germanic",
+      region: "Britian",
+      notes: "Anglo-Saxon",
+    },
+    {
       lat: 51.1701,
       lon: 6.2138,
       language: "Germanic",
@@ -2490,11 +2581,18 @@ export const markersData = {
       notes: "Old Norse",
     },
     {
-      lat: 52.4125,
-      lon: -1.2001,
+      lat: 53.0409,
+      lon: -1.0835,
       language: "Celtic",
       region: "Britian",
-      notes: "Common Brythonic languages.",
+      notes: "Western Brittonic",
+    },
+    {
+      lat: 50.5219,
+      lon: -3.3417,
+      language: "Celtic",
+      region: "Britian",
+      notes: "Southwestern Brittonic",
     },
     {
       lat: 56.474,
@@ -2668,6 +2766,13 @@ export const markersData = {
       notes: "North Sea Germanic Lanuages",
     },
     {
+      lat: 52.2146,
+      lon: 0.5715,
+      language: "Germanic",
+      region: "Britian",
+      notes: "Anglo-Saxon",
+    },
+    {
       lat: 51.1701,
       lon: 6.2138,
       language: "Germanic",
@@ -2689,11 +2794,18 @@ export const markersData = {
       notes: "Old Norse",
     },
     {
-      lat: 52.4125,
-      lon: -1.2001,
+      lat: 53.0409,
+      lon: -1.0835,
       language: "Celtic",
       region: "Britian",
-      notes: "Common Brythonic languages.",
+      notes: "Western Brittonic",
+    },
+    {
+      lat: 50.5219,
+      lon: -3.3417,
+      language: "Celtic",
+      region: "Britian",
+      notes: "Southwestern Brittonic",
     },
     {
       lat: 56.474,
@@ -2894,11 +3006,18 @@ export const markersData = {
       notes: "Old Norse",
     },
     {
-      lat: 52.4125,
-      lon: -1.2001,
+      lat: 53.0409,
+      lon: -1.0835,
       language: "Celtic",
       region: "Britian",
-      notes: "Common Brythonic languages.",
+      notes: "Western Brittonic",
+    },
+    {
+      lat: 50.5219,
+      lon: -3.3417,
+      language: "Celtic",
+      region: "Britian",
+      notes: "Southwestern Brittonic",
     },
     {
       lat: 56.474,
@@ -3078,8 +3197,8 @@ export const markersData = {
       notes: "Old High German",
     },
     {
-      lat: 52.3207,
-      lon: 1.3315,
+      lat: 53.0542,
+      lon: -1.0229,
       language: "Germanic",
       region: "Central Europe, Britian",
       notes: "Old English",
